@@ -1,0 +1,23 @@
+E:\Channel\Webperformans(kiyas.la)\kiyas.la\kiyas.la\bin\kiyas.la.dll
+E:\Channel\Webperformans(kiyas.la)\kiyas.la\kiyas.la\bin\kiyas.la.pdb
+E:\Channel\Webperformans(kiyas.la)\kiyas.la\kiyas.la\bin\EntityFramework.dll
+E:\Channel\Webperformans(kiyas.la)\kiyas.la\kiyas.la\bin\EntityFramework.SqlServer.dll
+E:\Channel\Webperformans(kiyas.la)\kiyas.la\kiyas.la\bin\EntityFramework.xml
+E:\Channel\Webperformans(kiyas.la)\kiyas.la\kiyas.la\bin\EntityFramework.SqlServer.xml
+E:\Channel\Webperformans(kiyas.la)\kiyas.la\kiyas.la\obj\Debug\ResolveAssemblyReference.cache
+E:\Channel\Webperformans(kiyas.la)\kiyas.la\kiyas.la\obj\Debug\kiyas.la.dll
+E:\Channel\Webperformans(kiyas.la)\kiyas.la\kiyas.la\obj\Debug\kiyas.la.pdb
+C:\Users\MERT CAN\Desktop\kiyas.la - Deneme\kiyas.la\bin\kiyas.la.dll
+C:\Users\MERT CAN\Desktop\kiyas.la - Deneme\kiyas.la\bin\kiyas.la.pdb
+C:\Users\MERT CAN\Desktop\kiyas.la - Deneme\kiyas.la\bin\EntityFramework.xml
+C:\Users\MERT CAN\Desktop\kiyas.la - Deneme\kiyas.la\bin\EntityFramework.SqlServer.xml
+C:\Users\MERT CAN\Desktop\kiyas.la - Deneme\kiyas.la\obj\Debug\kiyas.la.csprojResolveAssemblyReference.cache
+C:\Users\MERT CAN\Desktop\kiyas.la - Deneme\kiyas.la\obj\Debug\kiyas.la.dll
+C:\Users\MERT CAN\Desktop\kiyas.la - Deneme\kiyas.la\obj\Debug\kiyas.la.pdb
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v1.0)\kiyas.la\bin\kiyas.la.dll
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v1.0)\kiyas.la\bin\kiyas.la.pdb
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v1.0)\kiyas.la\bin\EntityFramework.xml
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v1.0)\kiyas.la\bin\EntityFramework.SqlServer.xml
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v1.0)\kiyas.la\obj\Debug\kiyas.la.csprojResolveAssemblyReference.cache
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v1.0)\kiyas.la\obj\Debug\kiyas.la.dll
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v1.0)\kiyas.la\obj\Debug\kiyas.la.pdb

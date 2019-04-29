@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B230E19F-CCEB-40CB-A4B7-598134A8D504}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>kiyas.la</RootNamespace>
+    <AssemblyName>kiyas.la</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\..\EntityGiris\EntityGiris\bin\Debug\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\..\..\EntityGiris\EntityGiris\bin\Debug\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Detay.aspx" />
+    <Content Include="Admin\Ekle.aspx" />
+    <Content Include="Admin\Listele.aspx" />
+    <Content Include="Folder\Plugin\bootstrap-3.3.4-dist\css\bootstrap-theme.css" />
+    <Content Include="Folder\Plugin\bootstrap-3.3.4-dist\css\bootstrap-theme.min.css" />
+    <Content Include="Folder\Plugin\bootstrap-3.3.4-dist\css\bootstrap.css" />
+    <Content Include="Folder\Plugin\bootstrap-3.3.4-dist\css\bootstrap.min.css" />
+    <Content Include="Folder\Plugin\bootstrap-3.3.4-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Folder\Plugin\bootstrap-3.3.4-dist\js\bootstrap.js" />
+    <Content Include="Folder\Plugin\bootstrap-3.3.4-dist\js\bootstrap.min.js" />
+    <Content Include="Folder\Plugin\bootstrap-3.3.4-dist\js\npm.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Detay.aspx.cs">
+      <DependentUpon>Detay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Detay.aspx.designer.cs">
+      <DependentUpon>Detay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Ekle.aspx.cs">
+      <DependentUpon>Ekle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Ekle.aspx.designer.cs">
+      <DependentUpon>Ekle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Listele.aspx.cs">
+      <DependentUpon>Listele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Listele.aspx.designer.cs">
+      <DependentUpon>Listele.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Context\KiyaslaContext.cs" />
+    <Compile Include="Entities\Phone.cs" />
+    <Compile Include="Folder\MasterPage\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Folder\MasterPage\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Folder\MasterPage\Admin.Master" />
+    <None Include="Folder\Plugin\bootstrap-3.3.4-dist\css\bootstrap-theme.css.map" />
+    <None Include="Folder\Plugin\bootstrap-3.3.4-dist\css\bootstrap.css.map" />
+    <None Include="Folder\Plugin\bootstrap-3.3.4-dist\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Folder\Plugin\bootstrap-3.3.4-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Folder\Plugin\bootstrap-3.3.4-dist\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Folder\Plugin\bootstrap-3.3.4-dist\fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3212</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
