@@ -22,7 +22,7 @@ namespace kiyas.la.Admin
         {
             if (Request.QueryString["Id"] == null)
             {
-                Response.Redirect("Listele");
+                Response.Redirect("Listele.aspx");
             }
             else
             {
@@ -119,8 +119,9 @@ namespace kiyas.la.Admin
                     }
                     else
                     {
+                        
                         entity.MicroSdVarmi = false;
-                        entity.MicroSd_GB = int.Parse(null);
+                        entity.MicroSd_GB = 0;
                     }
                     entity.Agırlık_Gram = double.Parse(TxtAgirlik.Text.Trim());
                     entity.İsletimSistemi = TxtİsletimSistemi.Text.Trim();

@@ -20,6 +20,7 @@ namespace kiyas.la.Admin.Kategori
             Phone a = new Phone();
             a.TelefonMarkasi = TxtTlfnMarka.Text;
             a.TelefonModeli = TxtTlfnModel.Text;
+            a.Fotograf = FileUpload.FileName;
             a.Ekrancözünürlügü = TxtEkranCözürlügü.Text;
             a.ArkaKamerapixel = double.Parse(TxtArkaKamera.Text);
             a.ÖnKamerapixel = double.Parse(TxtÖnKamerapixel.Text);
@@ -31,7 +32,15 @@ namespace kiyas.la.Admin.Kategori
             a.GrafikİslemciHizi_Mhz = int.Parse(TxtGrafikİslemciHizi.Text);
             a.DahiliDepolama_GB = int.Parse(TxtDahiliDepolama.Text);
             a.MicroSdVarmi = MicroSdVarmiCheckbox.Checked;
-            a.MicroSd_GB = int.Parse(TxtMicroSd.Text);
+            if (MicroSdVarmiCheckbox.Checked == true)
+            {
+                a.MicroSd_GB = int.Parse(TxtMicroSd.Text);
+            }
+            else
+            {
+                a.MicroSd_GB = 0;
+            }
+            
             a.Batarya_Mh = int.Parse(TxtBatarya.Text);
             a.Agırlık_Gram = int.Parse(TxtAgirlik.Text);
             
@@ -46,6 +55,7 @@ namespace kiyas.la.Admin.Kategori
                 db.SmartPhone.Add(a);
                 db.SaveChanges();
                 ErrorMessage.Text = "Telefon Eklendi...";
+                Response.Redirect("Listele");
             }
         }
     }

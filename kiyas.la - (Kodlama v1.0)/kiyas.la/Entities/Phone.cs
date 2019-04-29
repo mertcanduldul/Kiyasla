@@ -9,6 +9,8 @@ namespace kiyas.la.Entities
     {
         public int Id { get; set; }
 
+        public string Fotograf { get; set; }
+
         public string TelefonMarkasi { get; set; }
 
         public string TelefonModeli { get; set; }

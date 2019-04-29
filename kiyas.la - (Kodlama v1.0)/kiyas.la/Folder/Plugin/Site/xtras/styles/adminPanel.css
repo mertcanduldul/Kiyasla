@@ -1,0 +1,21 @@
+﻿.navbar-header .headerImg {
+    height: 40px;
+    margin: 2px;
+}
+
+label.has-error input {
+    border-color: #f09784;
+    color: #d68273;
+    box-shadow: none;
+}
+
+label.has-info input {
+    border-color: #64a6bc;
+    color: #4b89aa;
+    box-shadow: none;
+}
+
+label.has-error .help-block {
+    color: #d16e6c;
+    font-size: small;
+}

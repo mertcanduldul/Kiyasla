@@ -47,8 +47,8 @@
                 <br />
                 <br />
                     <li class="active"><a href="/Admin">Anasayfa</a></li>
-                    <li><a href="/Admin/Listele">Ürün Ekle</a></li>
-                    <li><a href="/Admin/Listele">Ürün Listesi</a></li>
+                    <li><a href="/Admin/Listele.aspx">Ürün Listesi</a></li>
+                    <li><a href="/Admin/Ekle.aspx">Ürün Ekle</a></li>
                     <li><a href="#">Export</a></li>
                 </ul>              
             </div>
