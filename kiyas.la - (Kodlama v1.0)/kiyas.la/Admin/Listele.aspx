@@ -9,7 +9,7 @@
             <asp:BoundField DataField="TelefonModeli" HeaderText="Telefon Modeli" />
             <asp:BoundField DataField="İslemciMarkasi" HeaderText="İslemci Markası" />
             <asp:BoundField DataField="İslemciModeli" HeaderText="İslemci Modeli" />
-            <asp:BoundField DataField="İslemciCekirdek" HeaderText="İslemci Çekirdek Sayısı" />
+            <asp:BoundField DataField="İslemciCekirdek" HeaderText="Çekirdek Sayısı" />
             <asp:BoundField DataField="İslemciHizi_Ghz" HeaderText="İslemci Hızı (Ghz)" />
             <asp:BoundField DataField="İsletimSistemi" HeaderText="İşletim Sistemi" />
             <asp:BoundField DataField="EkranCözünürlügü" HeaderText="Ekran Çözünürlüğü" />

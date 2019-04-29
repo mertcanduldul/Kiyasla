@@ -10,5 +10,7 @@ namespace kiyas.la.Context
     public class KiyaslaContext:DbContext
     {
         public DbSet<Phone> SmartPhone { get; set; }
+
+        public DbSet<Eslestir> Eslestirmeler { get; set; }
     }
 }
