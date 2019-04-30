@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Folder/MasterPage/Main.Master"
-    AutoEventWireup="true" CodeBehind="Listele.aspx.cs" Inherits="kiyas.la.User.Products.Listele" %>
+    AutoEventWireup="true" CodeBehind="Detay.aspx.cs" Inherits="kiyas.la.User.Products.Detay" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContentHolder" runat="server">
     <asp:ListView ID="ListView1" runat="server">
