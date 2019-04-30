@@ -65,6 +65,7 @@
   <ItemGroup>
     <Content Include="Admin\Detay.aspx" />
     <Content Include="Admin\Ekle.aspx" />
+    <Content Include="Admin\Eslesmeler.aspx" />
     <Content Include="Admin\Listele.aspx" />
     <Content Include="Admin\ÜrünEslestir.aspx" />
     <Content Include="Folder\Plugin\bootstrap-3.3.4-dist\css\bootstrap-theme.css" />
@@ -988,6 +989,13 @@
     </Compile>
     <Compile Include="Admin\Ekle.aspx.designer.cs">
       <DependentUpon>Ekle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Eslesmeler.aspx.cs">
+      <DependentUpon>Eslesmeler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Eslesmeler.aspx.designer.cs">
+      <DependentUpon>Eslesmeler.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Listele.aspx.cs">
       <DependentUpon>Listele.aspx</DependentUpon>

@@ -10,11 +10,11 @@ namespace kiyas.la.Entities
         public int Id { get; set; }
 
         public int SecilenSira { get; set; }
+
         public int SecilenSira2 { get; set; }
 
         public string TelefonMarkasi { get; set; }
-        public string TelefonMarkasi2 { get; set; }
 
-        public Phone Phones { get; set; }
+        public string TelefonMarkasi2 { get; set; }
     }
 }

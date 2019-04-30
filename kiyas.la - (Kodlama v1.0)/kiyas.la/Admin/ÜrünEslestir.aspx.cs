@@ -40,10 +40,8 @@ namespace kiyas.la.Admin
             Eslestir a = new Eslestir();
             a.SecilenSira = Dropdownürün1.SelectedIndex;
             a.SecilenSira2 = Dropdownürün2.SelectedIndex;
-
             a.TelefonMarkasi = Dropdownürün1.SelectedItem.ToString();
             a.TelefonMarkasi2 = Dropdownürün2.SelectedItem.ToString();
-
 
             if (a.SecilenSira == a.SecilenSira2 || a.TelefonMarkasi == a.TelefonMarkasi2)
             {
@@ -51,19 +49,13 @@ namespace kiyas.la.Admin
             }
             else
             {
-                using (KiyaslaContext db=new KiyaslaContext())
+                using (KiyaslaContext db = new KiyaslaContext())
                 {
                     db.Eslestirmeler.Add(a);
                     db.SaveChanges();
                     LblErrorMessage.Text = "Ürünler Eşleştirildi";
                 }
             }
-
-
-
-
-
-
 
             //using (KiyaslaContext db = new KiyaslaContext())
             //{
