@@ -432,11 +432,11 @@
                 </script>
             </div>
             <div class="popularComparisons">
-                <h1>
-                    En pop&#252;ler cep telefonu karşılaştırmaları
-                </h1>
-                <div>
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <asp:ContentPlaceHolder ID="MainContentHolder" runat="server">
+                    <h1>
+                        En pop&#252;ler cep telefonu karşılaştırmaları
+                    </h1>
+                    <div>
                         <h2>
                             <a href="tr/cep-telefonu/karsilastir/LG-G3-vs-Sony-Xperia-Z3.html">LG G3 vs Sony Xperia
                                 Z3</a></h2>
@@ -450,10 +450,8 @@
                             <span style="width: 28%; float: left; text-align: center; opacity: 1;">vs </span>
                             <span style="width: 35%; float: left; text-align: left; opacity: 1;">1.899 TL </span>
                         </h3>
-                    </asp:ContentPlaceHolder>
-                </div>
-                <div>
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </div>
+                    <div>
                         <h2>
                             <a href="tr/cep-telefonu/karsilastir/Apple-iPhone-6-Plus-vs-Samsung-Galaxy-Note-4-SM-N910S.html">
                                 Apple iPhone 6 Plus vs Samsung Galaxy Note 4 SM-N910S</a></h2>
@@ -467,10 +465,8 @@
                             <span style="width: 28%; float: left; text-align: center; opacity: 1;">vs </span>
                             <span style="width: 35%; float: left; text-align: left; opacity: 1;">2.049 TL </span>
                         </h3>
-                    </asp:ContentPlaceHolder>
-                </div>
-                <div>
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                    </div>
+                    <div>
                         <h2>
                             <a href="tr/cep-telefonu/karsilastir/LG-G3-vs-Sony-Xperia-Z2.html">LG G3 vs Sony Xperia
                                 Z2</a></h2>
@@ -484,10 +480,8 @@
                             <span style="width: 28%; float: left; text-align: center; opacity: 1;">vs </span>
                             <span style="width: 35%; float: left; text-align: left; opacity: 1;">1.349 TL </span>
                         </h3>
-                    </asp:ContentPlaceHolder>
-                </div>
-                <div>
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+                    </div>
+                    <div>
                         <h2>
                             <a href="tr/cep-telefonu/karsilastir/Samsung-Galaxy-Note-4-SM-N910S-vs-Samsung-Galaxy-Note-Edge.html">
                                 Samsung Galaxy Note 4 SM-N910S vs Samsung Galaxy Note Edge</a></h2>
@@ -501,10 +495,8 @@
                             <span style="width: 28%; float: left; text-align: center; opacity: 1;">vs </span>
                             <span style="width: 35%; float: left; text-align: left; opacity: 1;">2.589 TL </span>
                         </h3>
-                    </asp:ContentPlaceHolder>
-                </div>
-                <div>
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+                    </div>
+                    <div>
                         <h2>
                             <a href="tr/cep-telefonu/karsilastir/Sony-Xperia-Z3-vs-Apple-iPhone-6-Plus.html">Sony
                                 Xperia Z3 vs Apple iPhone 6 Plus</a></h2>
@@ -518,10 +510,8 @@
                             <span style="width: 28%; float: left; text-align: center; opacity: 1;">vs </span>
                             <span style="width: 35%; float: left; text-align: left; opacity: 1;">2.649 TL </span>
                         </h3>
-                    </asp:ContentPlaceHolder>
-                </div>
-                <div>
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder6" runat="server">
+                    </div>
+                    <div>
                         <h2>
                             <a href="tr/cep-telefonu/karsilastir/Samsung-Galaxy-Note-3-N9000-vs-Samsung-Galaxy-Note-3-N9005.html">
                                 Samsung Galaxy Note 3 N9000 vs Samsung Galaxy Note 3 N9005</a></h2>
@@ -535,8 +525,8 @@
                             <span style="width: 28%; float: left; text-align: center; opacity: 1;">vs </span>
                             <span style="width: 35%; float: left; text-align: left; opacity: 1;">1.619 TL </span>
                         </h3>
-                    </asp:ContentPlaceHolder>
-                </div>
+                    </div>
+                </asp:ContentPlaceHolder>
             </div>
             <!-- facebook comments -->
             <div id="fb-root">
