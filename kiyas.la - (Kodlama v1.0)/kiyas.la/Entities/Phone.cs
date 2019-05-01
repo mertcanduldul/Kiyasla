@@ -17,6 +17,8 @@ namespace kiyas.la.Entities
 
         public string Ekrancözünürlügü { get; set; }
 
+        public int RAM { get; set; }
+
         public double ArkaKamerapixel { get; set; }
 
         public double ÖnKamerapixel { get; set; }

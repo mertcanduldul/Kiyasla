@@ -7,6 +7,7 @@
             <asp:BoundField DataField="Id" HeaderText="Id" />
             <asp:BoundField DataField="TelefonMarkasi" HeaderText="Telefon Markası" />
             <asp:BoundField DataField="TelefonModeli" HeaderText="Telefon Modeli" />
+            <asp:BoundField DataField="RAM" HeaderText="RAM Miktarı" />
             <asp:BoundField DataField="İslemciMarkasi" HeaderText="İslemci Markası" />
             <asp:BoundField DataField="İslemciModeli" HeaderText="İslemci Modeli" />
             <asp:BoundField DataField="İslemciCekirdek" HeaderText="Çekirdek Sayısı" />

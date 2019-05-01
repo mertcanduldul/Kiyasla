@@ -21,6 +21,7 @@ namespace kiyas.la.Admin.Kategori
             a.TelefonMarkasi = TxtTlfnMarka.Text;
             a.TelefonModeli = TxtTlfnModel.Text;
             a.Fotograf = FileUpload.FileName;
+            a.RAM = int.Parse(TxtRam.Text);
             a.Ekrancözünürlügü = TxtEkranCözürlügü.Text;
             a.ArkaKamerapixel = double.Parse(TxtArkaKamera.Text);
             a.ÖnKamerapixel = double.Parse(TxtÖnKamerapixel.Text);

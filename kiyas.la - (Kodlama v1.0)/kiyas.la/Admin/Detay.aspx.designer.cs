@@ -49,6 +49,24 @@ namespace kiyas.la.Admin {
         protected global::System.Web.UI.WebControls.TextBox TxtTlfnModel;
         
         /// <summary>
+        /// LblRam control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblRam;
+        
+        /// <summary>
+        /// TxtRam control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtRam;
+        
+        /// <summary>
         /// LblEkranCözünürlügü control.
         /// </summary>
         /// <remarks>

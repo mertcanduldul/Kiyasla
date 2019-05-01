@@ -27,6 +27,7 @@ namespace kiyas.la.Admin
                                  i.Id,
                                  i.TelefonMarkasi,
                                  i.TelefonModeli,
+                                 i.RAM,
                                  i.İslemciMarkasi,
                                  i.İslemciModeli,
                                  i.İslemciCekirdek,
@@ -41,22 +42,3 @@ namespace kiyas.la.Admin
         }
     }
 }
-
-
-
-//<Columns>
-//            <asp:BoundField DataField="Id" HeaderText="Id" />
-//            <asp:BoundField DataField="TelefonMarkasi" HeaderText="Telefon Markasi" />
-//            <asp:BoundField DataField="TelefonModeli" HeaderText="Telefon Modeli" />
-//            <asp:BoundField DataField="İslemciMarkasi" HeaderText="İslemci Markası" />
-//            <asp:BoundField DataField="İslemciModeli" HeaderText="İslemci Modeli" />
-//            <asp:BoundField DataField="İslemciCekirdek" HeaderText="İslemci Kaç Çekirdek" />
-//            <asp:BoundField DataField="İslemciHizi_Ghz" HeaderText="İslemci Hizi" />
-//            <asp:BoundField DataField="İsletimSistemi" HeaderText="İsletim Sistemi" />
-//            <asp:BoundField DataField="Ekrancözünürlügü" HeaderText="Ekran Çözünürlügü" />
-//            <asp:TemplateField>
-//                <ItemTemplate>
-//                    <a href='Detay?id=<%#Eval("Id")%>'>Detay</a>
-//                </ItemTemplate>
-//            </asp:TemplateField>
-//        </Columns>

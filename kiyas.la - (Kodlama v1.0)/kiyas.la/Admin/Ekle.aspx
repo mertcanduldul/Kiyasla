@@ -13,6 +13,11 @@
         <br />
     </div>
     <div class="form-group">
+        <asp:Label ID="LblRam" runat="server" Text="RAM Miktarı" class="text-primary"></asp:Label><br />
+        <asp:TextBox ID="TxtRam" runat="server" CssClass="form-control" placeholder="RAM"></asp:TextBox>
+        <br />
+    </div>
+    <div class="form-group">
         <asp:Label ID="LblTlfnFotograf" runat="server" Text="Telefonun Fotoğrafı" class="text-primary"></asp:Label><br />
         <asp:FileUpload ID="FileUpload" runat="server" /><br />
         <br />

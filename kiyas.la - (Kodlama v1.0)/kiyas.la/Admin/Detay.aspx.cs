@@ -36,6 +36,7 @@ namespace kiyas.la.Admin
                                       i.Id,
                                       i.TelefonMarkasi,
                                       i.TelefonModeli,
+                                      i.RAM,
                                       i.Ekrancözünürlügü,
                                       i.ArkaKamerapixel,
                                       i.ÖnKamerapixel,
@@ -56,6 +57,7 @@ namespace kiyas.la.Admin
                     {
                         TxtTlfnMarka.Text = entity.TelefonMarkasi;
                         TxtTlfnModel.Text = entity.TelefonModeli;
+                        TxtRam.Text = entity.RAM.ToString();
                         TxtEkranCözürlügü.Text = entity.Ekrancözünürlügü;
                         TxtArkaKamera.Text = entity.ArkaKamerapixel.ToString();
                         TxtÖnKamerapixel.Text = entity.ÖnKamerapixel.ToString();
@@ -102,6 +104,7 @@ namespace kiyas.la.Admin
 
                     entity.TelefonMarkasi = TxtTlfnMarka.Text.Trim();
                     entity.TelefonModeli = TxtTlfnModel.Text.Trim();
+                    entity.RAM = int.Parse(TxtRam.Text.Trim());
                     entity.Ekrancözünürlügü = TxtEkranCözürlügü.Text.Trim();
                     entity.ArkaKamerapixel = double.Parse(TxtArkaKamera.Text.Trim());
                     entity.ÖnKamerapixel = double.Parse(TxtÖnKamerapixel.Text.Trim());
@@ -119,7 +122,7 @@ namespace kiyas.la.Admin
                     }
                     else
                     {
-                        
+
                         entity.MicroSdVarmi = false;
                         entity.MicroSd_GB = 0;
                     }

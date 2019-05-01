@@ -11,6 +11,11 @@
     <br />
     </div>
     <div class="form-group">
+        <asp:Label ID="LblRam" runat="server" Text="RAM Miktarı" class="text-primary"></asp:Label><br />
+        <asp:TextBox ID="TxtRam" runat="server" CssClass="form-control" placeholder="RAM"></asp:TextBox>
+        <br />
+    </div>
+    <div class="form-group">
     <asp:Label ID="LblEkranCözünürlügü" runat="server" Text="Ekran Çözünürlüğü" class="text-primary"></asp:Label><br />
     <asp:TextBox ID="TxtEkranCözürlügü" runat="server" CssClass="form-control" placeholder="1920x1080"></asp:TextBox>
     <br />
