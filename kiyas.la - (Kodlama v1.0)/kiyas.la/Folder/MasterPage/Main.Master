@@ -1,0 +1,615 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="kiyas.la.Folder.MasterPage.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Cep Telefonu Karşılaştır, Tablet Karşılaştır, Fotoğraf Makinesi Karşılaştır.
+        Fiyat karşılaştır.</title>
+    <meta name="description" content="Cep telefonları, tablet ve fotoğraf makineleri için akıllı fiyat ve özellik karşılaştırma, kıyaslama motoru. Yorumlar, puanlar ve önerilerle sosyal bir tercih ortamı oluşturur." />
+    <meta property="og:title" content="Akıllı ürün karşılaştırma motoru" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="index.html" />
+    <meta property="og:image" content="xtras/images/is/facebook_likeTN.png" />
+    <meta property="og:site_name" content="kiyas.la" />
+    <meta property="fb:app_id" content="128099360604891" />
+    <meta property="fb:page_id" content="211137238942241" />
+    <meta property="og:description" content="Cep telefonu, tablet, fotoğraf Makinesi ve benzeri ürünlerin özelliklerini ve fiyatlarını sizin için akıllıca karşılaştrır, bir özetini sunar. Kullanıcı puanları ve görüşleriyle sosyal bir tavsiye ortamı oluşturur." />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="mobil, mobile, compare, kıyasla, karşılaştır, hangisi iyi, teknik &#246;zellikler, cihaz, iPhone, HTC, SAMSUNG, NOKIA, iPad, GALAXY, Motorola, fotoğraf makinası, cam, canon, panasonic, fujifilm, pentax, kodak, rollei, konica minolta, samsung, leica, sigma, nikon, sony, olympus" />
+    <meta name="author" content="kiyas.la" />
+    <link rel="shortcut icon" type="image/x-icon" href="/Folder/Plugin/Site/xtras/images/v-635264591530002440/favicon.ico" />
+    <link rel="icon" href="/Folder/Plugin/Site/xtras/images/v-635348965018794279/favicon32x32.png"
+        sizes="32x32" type="image/png" />
+    <link rel="icon" href="/Folder/Plugin/Site/xtras/images/v-635348964972774198/favicon64x64.png"
+        sizes="64x64" type="image/png" />
+    <link rel="icon" href="/Folder/Plugin/Site/xtras/images/v-635348964959670175/favicon128x128.png"
+        sizes="128x128" type="image/png" />
+    <link rel="apple-touch-icon" href="/Folder/Plugin/Site/xtras/images/is/v-635348966082560148/myHomeIcon.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Folder/Plugin/Site/xtras/images/is/v-635348966082560148/myHomeIcon.png" />
+    <link href="/Folder/Plugin/Site/xtras/styles/cssbe63.css" rel="stylesheet" />
+    <link href="/Folder/Plugin/Site/xtras/themes/custom-theme/css3cce.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div class="vsDivNew">
+        <div class="vsDivNewHolder">
+            <div class="vsBoxV2">
+                <a href='indexe54e.html?enforceLangCode=1' title="kiyas.la | akıllı karşılaştırma motoru">
+                    <img src='/Folder/Plugin/Site/xtras/images/is/v-635348965910335845/logoKiyaslaNew_tr.png'
+                        alt="kiyas.la | akıllı karşılaştırma motoru" />
+                </a>
+                <form action="http://kiyas.la/tr/Search/Search" id="searchForm" method="post">
+                <div class="vsForm">
+                    <input id="hiddenProductType" name="hiddenProductType" type="hidden" value="-1" />
+                    <input data-val="true" data-val-required="The Product1 field is required." id="Product1"
+                        name="Product1" type="text" value="" />
+                    <span>vs</span>
+                    <input data-val="true" data-val-required="The Product2 field is required." id="Product2"
+                        name="Product2" type="text" value="" />
+                    <a id="kiyasla" href="#" tabindex="0">karşılaştır</a>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="contentDiv">
+        <div class="holder">
+            <img src="/Folder/Plugin/Site/xtras/images/is/v-635348966092544165/newArrival.png"
+                class="newSign" alt="En yeni &#252;r&#252;nler!" title="En yeni &#252;r&#252;nler!" />
+            <div id="newArrivals">
+                <ul class="bjqs">
+                    <li><a href='tr/cep-telefonu/Samsung-Galaxy-S6/TeknikOzellikler/3379.html' class="newArrivalProdImg">
+                        <span>teknik &#246;zellikler</span>
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/mediumpics/v-635608395171550555/Samsung_Galaxy_S6_%21_20150301204517.png'
+                            alt='Samsung Galaxy S6' title='Samsung Galaxy S6' />
+                    </a>
+                        <h1>
+                            Samsung Galaxy S6</h1>
+                        <ul class="newAndFuriousSpecs">
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967546310719/TOUCH_SCREEN.png'
+                                    alt='Dokunmatik Ekran' title='Dokunmatik Ekran' /><strong>Dokunmatik Ekran :
+                                </strong>Kapasitif </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967459730567/PROCESSOR_CORE_COUNT.png'
+                                    alt='İşlemcideki &#231;ekirdek sayısı' title='İşlemcideki &#231;ekirdek sayısı' /><strong>İşlemcideki
+                                        &#231;ekirdek sayısı : </strong>D&#246;rt &#199;ekirdekli </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348966998905757/HEAD_PHONE_JACK.png'
+                                    alt='Kulaklık Girişi' title='Kulaklık Girişi' /><strong>Kulaklık Girişi : </strong>
+                                3.5mm Jack </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967012789782/MULTI_TOUCH.png'
+                                    alt='&#199;oklu Dokunmatik Ekran' title='&#199;oklu Dokunmatik Ekran' /><strong>&#199;oklu
+                                        Dokunmatik Ekran : </strong>Var </li>
+                        </ul>
+                        <div class="oldiesButGoldiesHolder">
+                            <ul class="oldiesButGoldies">
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Apple/thumbs/v-635459001030729334/Apple_iPhone_6_Plus_%21_20140909225503.jpg'
+                                        title="Apple iPhone 6 Plus" alt="Apple iPhone 6 Plus" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Samsung-Galaxy-S6-vs-Apple-iPhone-6-Plus.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/thumbs/v-635288764663745118/Samsung_Galaxy_S5_%21_20140224220746.jpg'
+                                        title="Samsung Galaxy S5" alt="Samsung Galaxy S5" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Samsung-Galaxy-S6-vs-Samsung-Galaxy-S5.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/HTC/thumbs/v-635605496000143109/HTC_One_(M9)_%21_20150226121320.jpg'
+                                        title="HTC One (M9)" alt="HTC One (M9)" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Samsung-Galaxy-S6-vs-HTC-One-(M9).html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Xiaomi/thumbs/v-635631035712586136/Xiaomi_Mi_4_LTE_%21_20150328013931.jpg'
+                                        title="Xiaomi Mi 4 LTE" alt="Xiaomi Mi 4 LTE" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Samsung-Galaxy-S6-vs-Xiaomi-Mi-4-LTE.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Xiaomi/thumbs/v-635631024072469691/Xiaomi_Mi_4_%21_20150328012007.jpg'
+                                        title="Xiaomi Mi 4" alt="Xiaomi Mi 4" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Samsung-Galaxy-S6-vs-Xiaomi-Mi-4.html">Karşılaştır</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href='tr/cep-telefonu/HTC-One-(M9)/TeknikOzellikler/3370.html' class="newArrivalProdImg">
+                        <span>teknik &#246;zellikler</span>
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/HTC/mediumpics/v-635605495891986776/HTC_One_(M9)_%21_20150226121309.jpg'
+                            alt='HTC One (M9)' title='HTC One (M9)' />
+                    </a>
+                        <h1>
+                            HTC One (M9)</h1>
+                        <ul class="newAndFuriousSpecs">
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348966584725030/ASSISTED_GPS.png'
+                                    alt='Assisted GPS' title='Assisted GPS' /><strong>Assisted GPS : </strong>Assisted
+                                GPS </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967458794565/RADIO.png'
+                                    alt='Radyo' title='Radyo' /><strong>Radyo : </strong>Var </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348966990637743/GENERATION.png'
+                                    alt='Jenerasyon' title='Jenerasyon' /><strong>Jenerasyon : </strong>4G </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967528994688/THREEG_BATTERY_STANDBY_TIME.png'
+                                    alt='3G StandBy S&#252;resi' title='3G StandBy S&#252;resi' /><strong>3G StandBy S&#252;resi
+                                        : </strong>402 saate kadar </li>
+                        </ul>
+                        <div class="oldiesButGoldiesHolder">
+                            <ul class="oldiesButGoldies">
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/thumbs/v-635608375171328912/Samsung_Galaxy_S6_%21_20150301201157.jpg'
+                                        title="Samsung Galaxy S6" alt="Samsung Galaxy S6" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/HTC-One-(M9)-vs-Samsung-Galaxy-S6.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/LG/thumbs/v-635368306545274119/LG_G3_%21_20140527233734.jpg'
+                                        title="LG G3" alt="LG G3" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/HTC-One-(M9)-vs-LG-G3.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/HTC/thumbs/v-635313726934327889/HTC_One_(M8)_%21_20140325193133.jpg'
+                                        title="HTC One (M8)" alt="HTC One (M8)" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/HTC-One-(M9)-vs-HTC-One-(M8).html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/thumbs/v-635288764663745118/Samsung_Galaxy_S5_%21_20140224220746.jpg'
+                                        title="Samsung Galaxy S5" alt="Samsung Galaxy S5" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/HTC-One-(M9)-vs-Samsung-Galaxy-S5.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Sony/thumbs/v-635288731342554592/Sony_Xperia_Z2_%21_20140224211214.jpg'
+                                        title="Sony Xperia Z2" alt="Sony Xperia Z2" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/HTC-One-(M9)-vs-Sony-Xperia-Z2.html">Karşılaştır</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href='tr/cep-telefonu/Samsung-Galaxy-S6-Edge/TeknikOzellikler/3380.html' class="newArrivalProdImg">
+                        <span>teknik &#246;zellikler</span>
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/mediumpics/v-635608399959306234/Samsung_Galaxy_S6_Edge_%21_20150301205315.png'
+                            alt='Samsung Galaxy S6 Edge' title='Samsung Galaxy S6 Edge' />
+                    </a>
+                        <h1>
+                            Samsung Galaxy S6 Edge</h1>
+                        <ul class="newAndFuriousSpecs">
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967519322671/THINNESS.png'
+                                    alt='İncelik' title='İncelik' /><strong>İncelik : </strong>7 mm </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967454270557/PROCESSOR.png'
+                                    alt='İşlemci' title='İşlemci' /><strong>İşlemci : </strong>Exynos 7420 Quad-core
+                                1.5 GHz Cortex-A53 &amp; Quad-core 2.1 GHz Cortex-A57 </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348966638545124/CAMERA_FLASH.png'
+                                    alt='Kamera Flaş' title='Kamera Flaş' /><strong>Kamera Flaş : </strong>Var
+                            </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348966584725030/ASSISTED_GPS.png'
+                                    alt='Assisted GPS' title='Assisted GPS' /><strong>Assisted GPS : </strong>Assisted
+                                GPS </li>
+                        </ul>
+                        <div class="oldiesButGoldiesHolder">
+                            <ul class="oldiesButGoldies">
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/thumbs/v-635453706589055841/Samsung_Galaxy_Note_Edge_%21_20140903195058.jpg'
+                                        title="Samsung Galaxy Note Edge" alt="Samsung Galaxy Note Edge" class="tiptipImage" /><a
+                                            href="tr/cep-telefonu/karsilastir/Samsung-Galaxy-S6-Edge-vs-Samsung-Galaxy-Note-Edge.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/thumbs/v-635608375171328912/Samsung_Galaxy_S6_%21_20150301201157.jpg'
+                                        title="Samsung Galaxy S6" alt="Samsung Galaxy S6" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Samsung-Galaxy-S6-Edge-vs-Samsung-Galaxy-S6.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Apple/thumbs/v-635459001030729334/Apple_iPhone_6_Plus_%21_20140909225503.jpg'
+                                        title="Apple iPhone 6 Plus" alt="Apple iPhone 6 Plus" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Samsung-Galaxy-S6-Edge-vs-Apple-iPhone-6-Plus.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/thumbs/v-635297227327072749/Samsung_Galaxy_J_%21_20140306171212.jpg'
+                                        title="Samsung Galaxy J" alt="Samsung Galaxy J" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Samsung-Galaxy-S6-Edge-vs-Samsung-Galaxy-J.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/thumbs/v-635297215887572657/Samsung_I9230_Galaxy_Golden_%21_20140306165308.jpg'
+                                        title="Samsung I9230 Galaxy Golden" alt="Samsung I9230 Galaxy Golden" class="tiptipImage" /><a
+                                            href="tr/cep-telefonu/karsilastir/Samsung-Galaxy-S6-Edge-vs-Samsung-I9230-Galaxy-Golden.html">Karşılaştır</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href='tr/fotograf-makinesi/Nikon-D810A/TeknikOzellikler/3375.html' class="newArrivalProdImg">
+                        <span>teknik &#246;zellikler</span>
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_DigitalCamera/Nikon/mediumpics/v-635595379463397298/Nikon_D810A_%21_20150214191226.jpg'
+                            alt='Nikon D810A' title='Nikon D810A' />
+                    </a>
+                        <h1>
+                            Nikon D810A</h1>
+                        <ul class="newAndFuriousSpecs">
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967199522110/PHOTO_PERFORMANCE_CONTINUOUS_SHOOTING.png'
+                                    alt='S&#252;rekli &#199;ekim Hızı' title='S&#252;rekli &#199;ekim Hızı' /><strong>S&#252;rekli
+                                        &#199;ekim Hızı : </strong>5 fps </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967372370413/PHOTO_SENSOR_CROP_FACTOR.png'
+                                    alt='Crop Factor' title='Crop Factor' /><strong>Crop Factor : </strong>1x
+                            </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967443506538/PHOTO_STORAGE_SLOT.png'
+                                    alt='Harici Disk Yuvasi' title='Harici Disk Yuvasi' /><strong>Harici Disk Yuvasi :
+                                </strong>1 Adet </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967051477850/PHOTO_FLASH_EXTERNAL_CONNECTION.png'
+                                    alt='Harici Flaş Takılabilme' title='Harici Flaş Takılabilme' /><strong>Harici Flaş
+                                        Takılabilme : </strong>Var </li>
+                        </ul>
+                        <div class="oldiesButGoldiesHolder">
+                            <ul class="oldiesButGoldies">
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_DigitalCamera/Canon/thumbs/v-635595367445119741/Canon_EOS_5DS_R_%21_20150214185224.jpg'
+                                        title="Canon EOS 5DS R" alt="Canon EOS 5DS R" class="tiptipImage" /><a href="tr/fotograf-makinesi/karsilastir/Nikon-D810A-vs-Canon-EOS-5DS-R.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_DigitalCamera/Nikon/thumbs/v-635595373071539581/Nikon_D810_%21_20150214190147.jpg'
+                                        title="Nikon D810" alt="Nikon D810" class="tiptipImage" /><a href="tr/fotograf-makinesi/karsilastir/Nikon-D810A-vs-Nikon-D810.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_DigitalCamera/Canon/thumbs/v-634780647618756562/Canon_EOS-1D_Mark_II_%21_20120113215016.jpg'
+                                        title="Canon EOS-1D Mark II" alt="Canon EOS-1D Mark II" class="tiptipImage" /><a
+                                            href="tr/fotograf-makinesi/karsilastir/Nikon-D810A-vs-Canon-EOS-1D-Mark-II.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_DigitalCamera/Canon/thumbs/v-634998502258390012/Canon_EOS_50D_%21_20120108180338.png'
+                                        title="Canon EOS 50D" alt="Canon EOS 50D" class="tiptipImage" /><a href="tr/fotograf-makinesi/karsilastir/Nikon-D810A-vs-Canon-EOS-50D.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_DigitalCamera/Nikon/thumbs/v-634998503057735416/Nikon_D3X_%21_20120115180218.png'
+                                        title="Nikon D3X" alt="Nikon D3X" class="tiptipImage" /><a href="tr/fotograf-makinesi/karsilastir/Nikon-D810A-vs-Nikon-D3X.html">Karşılaştır</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href='tr/cep-telefonu/Piranha-IQ-Plus/TeknikOzellikler/3369.html' class="newArrivalProdImg">
+                        <span>teknik &#246;zellikler</span>
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Piranha/mediumpics/v-635588248278623849/Piranha_IQ_Plus_%21_20150206130707.jpg'
+                            alt='Piranha IQ Plus' title='Piranha IQ Plus' />
+                    </a>
+                        <h1>
+                            Piranha IQ Plus</h1>
+                        <ul class="newAndFuriousSpecs">
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967012789782/MULTI_TOUCH.png'
+                                    alt='&#199;oklu Dokunmatik Ekran' title='&#199;oklu Dokunmatik Ekran' /><strong>&#199;oklu
+                                        Dokunmatik Ekran : </strong>Var </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348966982213728/DIMENSIONS.png'
+                                    alt='Boyut' title='Boyut' /><strong>Boyut : </strong>152 x 75 x 9.3 mm </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348966642601131/CARD_SLOT_CAPACITY.png'
+                                    alt='Genişleme Kapasitesi' title='Genişleme Kapasitesi' /><strong>Genişleme Kapasitesi
+                                        : </strong>128 GB&#39;a kadar </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635264592553520238/SCREEN_RESOLUTION.png'
+                                    alt='Ekran &#199;&#246;z&#252;n&#252;rl&#252;ğ&#252;' title='Ekran &#199;&#246;z&#252;n&#252;rl&#252;ğ&#252;' /><strong>Ekran
+                                        &#199;&#246;z&#252;n&#252;rl&#252;ğ&#252; : </strong>720 x 1280 </li>
+                        </ul>
+                        <div class="oldiesButGoldiesHolder">
+                            <ul class="oldiesButGoldies">
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/LG/thumbs/v-635368306545274119/LG_G3_%21_20140527233734.jpg'
+                                        title="LG G3" alt="LG G3" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Piranha-IQ-Plus-vs-LG-G3.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Escort%20Joye/thumbs/v-635630077281066740/Escort_Joye_E8_%21_20150326230208.jpg'
+                                        title="Escort Joye E8" alt="Escort Joye E8" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Piranha-IQ-Plus-vs-Escort-Joye-E8.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Asus/thumbs/v-635440547434570658/Asus_Zenfone_6_A600CG_%21_20140819141903.jpg'
+                                        title="Asus Zenfone 6 A600CG" alt="Asus Zenfone 6 A600CG" class="tiptipImage" /><a
+                                            href="tr/cep-telefonu/karsilastir/Piranha-IQ-Plus-vs-Asus-Zenfone-6-A600CG.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='xtras/images/devices_CellPhone/Samsung/thumbs/v-635288764663745118/Samsung_Galaxy_S5_%21_20140224220746.jpg'
+                                        title="Samsung Galaxy S5" alt="Samsung Galaxy S5" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Piranha-IQ-Plus-vs-Samsung-Galaxy-S5.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Sony/thumbs/v-635288731342554592/Sony_Xperia_Z2_%21_20140224211214.jpg'
+                                        title="Sony Xperia Z2" alt="Sony Xperia Z2" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Piranha-IQ-Plus-vs-Sony-Xperia-Z2.html">Karşılaştır</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href='tr/fotograf-makinesi/Canon-EOS-5DS-R/TeknikOzellikler/3373.html' class="newArrivalProdImg">
+                        <span>teknik &#246;zellikler</span>
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_DigitalCamera/Canon/mediumpics/v-635595367731961569/Canon_EOS_5DS_R_%21_20150214185253.jpg'
+                            alt='Canon EOS 5DS R' title='Canon EOS 5DS R' />
+                    </a>
+                        <h1>
+                            Canon EOS 5DS R</h1>
+                        <ul class="newAndFuriousSpecs">
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967508402652/SCREEN_TYPE.png'
+                                    alt='Ekran Tipi' title='Ekran Tipi' /><strong>Ekran Tipi : </strong>TFT LCD
+                            </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348966982213728/DIMENSIONS.png'
+                                    alt='Boyut' title='Boyut' /><strong>Boyut : </strong>152x116x76 mm </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967026517806/PHOTO_CAMERA_PIXEL.png'
+                                    alt='Fotoğraf Kamerası Piksel' title='Fotoğraf Kamerası Piksel' /><strong>Fotoğraf Kamerası
+                                        Piksel : </strong>50.3 MP </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967199522110/PHOTO_PERFORMANCE_CONTINUOUS_SHOOTING.png'
+                                    alt='S&#252;rekli &#199;ekim Hızı' title='S&#252;rekli &#199;ekim Hızı' /><strong>S&#252;rekli
+                                        &#199;ekim Hızı : </strong>5 fps </li>
+                        </ul>
+                        <div class="oldiesButGoldiesHolder">
+                            <ul class="oldiesButGoldies">
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_DigitalCamera/Canon/thumbs/v-634780647627819062/Canon_EOS_5D_Mark_III_%21_20120302113712.jpg'
+                                        title="Canon EOS 5D Mark III" alt="Canon EOS 5D Mark III" class="tiptipImage" /><a
+                                            href="tr/fotograf-makinesi/karsilastir/Canon-EOS-5DS-R-vs-Canon-EOS-5D-Mark-III.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_DigitalCamera/Nikon/thumbs/v-635595379147269404/Nikon_D810A_%21_20150214191154.jpg'
+                                        title="Nikon D810A" alt="Nikon D810A" class="tiptipImage" /><a href="tr/fotograf-makinesi/karsilastir/Canon-EOS-5DS-R-vs-Nikon-D810A.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_DigitalCamera/Canon/thumbs/v-634780647615631562/Canon_EOS-1Ds_%21_20120113223349.jpg'
+                                        title="Canon EOS-1Ds" alt="Canon EOS-1Ds" class="tiptipImage" /><a href="tr/fotograf-makinesi/karsilastir/Canon-EOS-5DS-R-vs-Canon-EOS-1Ds.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_DigitalCamera/Canon/thumbs/v-634998502308154099/Canon_EOS_5D_Mark_II_%21_20120108165905.png'
+                                        title="Canon EOS 5D Mark II" alt="Canon EOS 5D Mark II" class="tiptipImage" /><a
+                                            href="tr/fotograf-makinesi/karsilastir/Canon-EOS-5DS-R-vs-Canon-EOS-5D-Mark-II.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_DigitalCamera/Nikon/thumbs/v-634780647715944062/Nikon_D700_%21_20120605164419.jpg'
+                                        title="Nikon D700" alt="Nikon D700" class="tiptipImage" /><a href="tr/fotograf-makinesi/karsilastir/Canon-EOS-5DS-R-vs-Nikon-D700.html">Karşılaştır</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href='tr/tablet/Apple-iPad-Air-2/TeknikOzellikler/3307.html' class="newArrivalProdImg">
+                        <span>teknik &#246;zellikler</span>
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_Tablet/Apple/mediumpics/v-635490941873156727/Apple_iPad_Air_2_%21_20141016220947.png'
+                            alt='Apple iPad Air 2' title='Apple iPad Air 2' />
+                    </a>
+                        <h1>
+                            Apple iPad Air 2</h1>
+                        <ul class="newAndFuriousSpecs">
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967012789782/MULTI_TOUCH.png'
+                                    alt='&#199;oklu Dokunmatik Ekran' title='&#199;oklu Dokunmatik Ekran' /><strong>&#199;oklu
+                                        Dokunmatik Ekran : </strong>Var </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348966606721068/BATTERY_USAGE_TIME.png'
+                                    alt='Kullanım S&#252;resi' title='Kullanım S&#252;resi' /><strong>Kullanım S&#252;resi
+                                        : </strong>10 saate kadar </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967011073779/MULTI_TASK.png'
+                                    alt='Multitask' title='Multitask' /><strong>Multitask : </strong>Var </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967694510979/WEIGHT.png'
+                                    alt='Ağırlık' title='Ağırlık' /><strong>Ağırlık : </strong>437 g </li>
+                        </ul>
+                        <div class="oldiesButGoldiesHolder">
+                            <ul class="oldiesButGoldies">
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_Tablet/Apple/thumbs/v-635180792809236787/Apple_iPad_Air_%21_20131022225440.jpg'
+                                        title="Apple iPad Air" alt="Apple iPad Air" class="tiptipImage" /><a href="tr/tablet/karsilastir/Apple-iPad-Air-2-vs-Apple-iPad-Air.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_Tablet/Apple/thumbs/v-635490942688570159/Apple_iPad_Mini_3_%21_20141016221108.jpg'
+                                        title="Apple iPad Mini 3" alt="Apple iPad Mini 3" class="tiptipImage" /><a href="tr/tablet/karsilastir/Apple-iPad-Air-2-vs-Apple-iPad-Mini-3.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_Tablet/Samsung/thumbs/v-634872316473943750/Samsung_Google_Nexus_10_%21_20121030220727.jpg'
+                                        title="Samsung Google Nexus 10" alt="Samsung Google Nexus 10" class="tiptipImage" /><a
+                                            href="tr/tablet/karsilastir/Apple-iPad-Air-2-vs-Samsung-Google-Nexus-10.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_Tablet/HP/thumbs/v-634780647919225312/HP_TouchPad_%21_20110825164403.jpg'
+                                        title="HP TouchPad" alt="HP TouchPad" class="tiptipImage" /><a href="tr/tablet/karsilastir/Apple-iPad-Air-2-vs-HP-TouchPad.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_Tablet/Samsung/thumbs/v-634780648029850312/Samsung_P7100_Galaxy_Tab_10.1v_%21_20110822001258.jpg'
+                                        title="Samsung P7100 Galaxy Tab 10.1v" alt="Samsung P7100 Galaxy Tab 10.1v" class="tiptipImage" /><a
+                                            href="tr/tablet/karsilastir/Apple-iPad-Air-2-vs-Samsung-P7100-Galaxy-Tab-10.html">Karşılaştır</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href='tr/cep-telefonu/Apple-iPhone-6/TeknikOzellikler/3291.html' class="newArrivalProdImg">
+                        <span>teknik &#246;zellikler</span>
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Apple/mediumpics/v-635458997690139467/Apple_iPhone_6_%21_20140909224929.jpg'
+                            alt='Apple iPhone 6' title='Apple iPhone 6' />
+                    </a>
+                        <h1>
+                            Apple iPhone 6</h1>
+                        <ul class="newAndFuriousSpecs">
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635264592553520238/SCREEN_RESOLUTION.png'
+                                    alt='Ekran &#199;&#246;z&#252;n&#252;rl&#252;ğ&#252;' title='Ekran &#199;&#246;z&#252;n&#252;rl&#252;ğ&#252;' /><strong>Ekran
+                                        &#199;&#246;z&#252;n&#252;rl&#252;ğ&#252; : </strong>750 x 1334 </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967504502645/SCREEN_COLOR.png'
+                                    alt='Ekran Renk Sayısı' title='Ekran Renk Sayısı' /><strong>Ekran Renk Sayısı :
+                                </strong>16M Renk </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348967546310719/TOUCH_SCREEN.png'
+                                    alt='Dokunmatik Ekran' title='Dokunmatik Ekran' /><strong>Dokunmatik Ekran :
+                                </strong>Kapasitif </li>
+                            <li>
+                                <img src='/Folder/Plugin/Site/xtras/images/is/featureicons/v-635348966980341725/DATA_TRANSFER_SPEED.png'
+                                    alt='Veri Transferi Hızı' title='Veri Transferi Hızı' /><strong>Veri Transferi Hızı
+                                        : </strong>LTE 300 Mbps </li>
+                        </ul>
+                        <div class="oldiesButGoldiesHolder">
+                            <ul class="oldiesButGoldies">
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/LG/thumbs/v-635368306545274119/LG_G3_%21_20140527233734.jpg'
+                                        title="LG G3" alt="LG G3" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Apple-iPhone-6-vs-LG-G3.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Apple/thumbs/v-635145778497026039/Apple_iPhone_5s_%21_20130912101729.jpg'
+                                        title="Apple iPhone 5s" alt="Apple iPhone 5s" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Apple-iPhone-6-vs-Apple-iPhone-5s.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Apple/thumbs/v-635459001030729334/Apple_iPhone_6_Plus_%21_20140909225503.jpg'
+                                        title="Apple iPhone 6 Plus" alt="Apple iPhone 6 Plus" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Apple-iPhone-6-vs-Apple-iPhone-6-Plus.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/HTC/thumbs/v-634780645747350312/HTC_Sensation_4G_%21_20110710182107.jpg'
+                                        title="HTC Sensation 4G" alt="HTC Sensation 4G" class="tiptipImage" /><a href="tr/cep-telefonu/karsilastir/Apple-iPhone-6-vs-HTC-Sensation-4G.html">Karşılaştır</a></li>
+                                <li class="compareLi">
+                                    <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/thumbs/v-634780647206569062/Samsung_Galaxy_S_II_4G_%21_20110729182208.jpg'
+                                        title="Samsung Galaxy S II 4G" alt="Samsung Galaxy S II 4G" class="tiptipImage" /><a
+                                            href="tr/cep-telefonu/karsilastir/Apple-iPhone-6-vs-Samsung-Galaxy-S-II-4G.html">Karşılaştır</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="advertisement">
+                <script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+                <!-- Banner -->
+                <ins class="adsbygoogle" style="display: inline-block; width: 728px; height: 90px"
+                    data-ad-client="ca-pub-3606031506272395" data-ad-slot="0437384783"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            <div class="popularComparisons">
+                <asp:ContentPlaceHolder ID="MainContentHolder" runat="server">
+                    <h1>
+                        En pop&#252;ler cep telefonu karşılaştırmaları
+                    </h1>
+                    <div>
+                        <h2>
+                            <a href="tr/cep-telefonu/karsilastir/LG-G3-vs-Sony-Xperia-Z3.html">LG G3 vs Sony Xperia
+                                Z3</a></h2>
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/LG/pics/v-635368306483810011/LG_G3_%21_20140527233728.jpg'
+                            alt='LG G3' title='LG G3' />
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Sony/pics/v-635453715250191054/Sony_Xperia_Z3_%21_20140903200525.jpg'
+                            alt='Sony Xperia Z3' title='Sony Xperia Z3' />
+                        <h3 style="background: #efefef; padding: 4px; overflow: auto; margin: 0 -8px; margin-bottom: -8px;
+                            border-radius: 0 0 8px 8px;">
+                            <span style="width: 35%; float: left; text-align: right; opacity: 1;">1.379 TL </span>
+                            <span style="width: 28%; float: left; text-align: center; opacity: 1;">vs </span>
+                            <span style="width: 35%; float: left; text-align: left; opacity: 1;">1.899 TL </span>
+                        </h3>
+                    </div>
+                    <div>
+                        <h2>
+                            <a href="tr/cep-telefonu/karsilastir/Apple-iPhone-6-Plus-vs-Samsung-Galaxy-Note-4-SM-N910S.html">
+                                Apple iPhone 6 Plus vs Samsung Galaxy Note 4 SM-N910S</a></h2>
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Apple/pics/v-635459001138993524/Apple_iPhone_6_Plus_%21_20140909225513.jpg'
+                            alt='Apple iPhone 6 Plus' title='Apple iPhone 6 Plus' />
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/pics/v-635453711064235702/Samsung_Galaxy_Note_4_SM-N910S_%21_20140903195826.jpg'
+                            alt='Samsung Galaxy Note 4 SM-N910S' title='Samsung Galaxy Note 4 SM-N910S' />
+                        <h3 style="background: #efefef; padding: 4px; overflow: auto; margin: 0 -8px; margin-bottom: -8px;
+                            border-radius: 0 0 8px 8px;">
+                            <span style="width: 35%; float: left; text-align: right; opacity: 1;">2.649 TL </span>
+                            <span style="width: 28%; float: left; text-align: center; opacity: 1;">vs </span>
+                            <span style="width: 35%; float: left; text-align: left; opacity: 1;">2.049 TL </span>
+                        </h3>
+                    </div>
+                    <div>
+                        <h2>
+                            <a href="tr/cep-telefonu/karsilastir/LG-G3-vs-Sony-Xperia-Z2.html">LG G3 vs Sony Xperia
+                                Z2</a></h2>
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/LG/pics/v-635368306483810011/LG_G3_%21_20140527233728.jpg'
+                            alt='LG G3' title='LG G3' />
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Sony/pics/v-635288731258002444/Sony_Xperia_Z2.jpg'
+                            alt='Sony Xperia Z2' title='Sony Xperia Z2' />
+                        <h3 style="background: #efefef; padding: 4px; overflow: auto; margin: 0 -8px; margin-bottom: -8px;
+                            border-radius: 0 0 8px 8px;">
+                            <span style="width: 35%; float: left; text-align: right; opacity: 1;">1.379 TL </span>
+                            <span style="width: 28%; float: left; text-align: center; opacity: 1;">vs </span>
+                            <span style="width: 35%; float: left; text-align: left; opacity: 1;">1.349 TL </span>
+                        </h3>
+                    </div>
+                    <div>
+                        <h2>
+                            <a href="tr/cep-telefonu/karsilastir/Samsung-Galaxy-Note-4-SM-N910S-vs-Samsung-Galaxy-Note-Edge.html">
+                                Samsung Galaxy Note 4 SM-N910S vs Samsung Galaxy Note Edge</a></h2>
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/pics/v-635453711064235702/Samsung_Galaxy_Note_4_SM-N910S_%21_20140903195826.jpg'
+                            alt='Samsung Galaxy Note 4 SM-N910S' title='Samsung Galaxy Note 4 SM-N910S' />
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/pics/v-635453706651923952/Samsung_Galaxy_Note_Edge_%21_20140903195105.jpg'
+                            alt='Samsung Galaxy Note Edge' title='Samsung Galaxy Note Edge' />
+                        <h3 style="background: #efefef; padding: 4px; overflow: auto; margin: 0 -8px; margin-bottom: -8px;
+                            border-radius: 0 0 8px 8px;">
+                            <span style="width: 35%; float: left; text-align: right; opacity: 1;">2.049 TL </span>
+                            <span style="width: 28%; float: left; text-align: center; opacity: 1;">vs </span>
+                            <span style="width: 35%; float: left; text-align: left; opacity: 1;">2.589 TL </span>
+                        </h3>
+                    </div>
+                    <div>
+                        <h2>
+                            <a href="tr/cep-telefonu/karsilastir/Sony-Xperia-Z3-vs-Apple-iPhone-6-Plus.html">Sony
+                                Xperia Z3 vs Apple iPhone 6 Plus</a></h2>
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Sony/pics/v-635453715250191054/Sony_Xperia_Z3_%21_20140903200525.jpg'
+                            alt='Sony Xperia Z3' title='Sony Xperia Z3' />
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Apple/pics/v-635459001138993524/Apple_iPhone_6_Plus_%21_20140909225513.jpg'
+                            alt='Apple iPhone 6 Plus' title='Apple iPhone 6 Plus' />
+                        <h3 style="background: #efefef; padding: 4px; overflow: auto; margin: 0 -8px; margin-bottom: -8px;
+                            border-radius: 0 0 8px 8px;">
+                            <span style="width: 35%; float: left; text-align: right; opacity: 1;">1.899 TL </span>
+                            <span style="width: 28%; float: left; text-align: center; opacity: 1;">vs </span>
+                            <span style="width: 35%; float: left; text-align: left; opacity: 1;">2.649 TL </span>
+                        </h3>
+                    </div>
+                    <div>
+                        <h2>
+                            <a href="tr/cep-telefonu/karsilastir/Samsung-Galaxy-Note-3-N9000-vs-Samsung-Galaxy-Note-3-N9005.html">
+                                Samsung Galaxy Note 3 N9000 vs Samsung Galaxy Note 3 N9005</a></h2>
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/pics/v-635139767043642232/Samsung_Galaxy_Note_3_N9000_%21_20130905111824.jpg'
+                            alt='Samsung Galaxy Note 3 N9000' title='Samsung Galaxy Note 3 N9000' />
+                        <img src='/Folder/Plugin/Site/xtras/images/devices_CellPhone/Samsung/pics/v-635144038371689670/Samsung_Galaxy_Note_3_N9005_%21_20130910095717.jpg'
+                            alt='Samsung Galaxy Note 3 N9005' title='Samsung Galaxy Note 3 N9005' />
+                        <h3 style="background: #efefef; padding: 4px; overflow: auto; margin: 0 -8px; margin-bottom: -8px;
+                            border-radius: 0 0 8px 8px;">
+                            <span style="width: 35%; float: left; text-align: right; opacity: 1;">1.699 TL </span>
+                            <span style="width: 28%; float: left; text-align: center; opacity: 1;">vs </span>
+                            <span style="width: 35%; float: left; text-align: left; opacity: 1;">1.619 TL </span>
+                        </h3>
+                    </div>
+                </asp:ContentPlaceHolder>
+            </div>
+            <!-- facebook comments -->
+            <div id="fb-root">
+            </div>
+            <script>                (function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = '../connect.facebook.net/tr_TR/all.js#xfbml=1&amp;appId=128099360604891';
+                    fjs.parentNode.insertBefore(js, fjs);
+                } (document, 'script', 'facebook-jssdk'));</script>
+            <div class="recentComments">
+                <h1>
+                    Facebook ile yorumla!
+                </h1>
+                <div class="fb-comments" data-href="http://kiyas.la/" data-num-posts="10" data-width="960">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerDiv">
+        <div class="holder footerBck">
+            <div class="footerLeft">
+                <ul>
+                    <li><a href="http://www.twitter.com/kiyasla1" target="_new">
+                        <img src="/Folder/Plugin/Site/xtras/images/is/v-635348965720483512/footer_new_twitter.png"
+                            title="Bizi Twitter&#39;da takip edin" alt="Twitter Logo" /></a></li>
+                    <li><a href="http://www.facebook.com/kiyasla" target="_new">
+                        <img src="/Folder/Plugin/Site/xtras/images/is/v-635348965713619500/footer_new_facebook.png"
+                            title="Facebook sayfamızı ziyaret edin" alt="Facebook Logo" /></a></li>
+                    <li><a href="tr/Contact.html">
+                        <img src="/Folder/Plugin/Site/xtras/images/is/v-635348965702543480/footer_new_contactUs.png"
+                            title="Bizimle iletişime ge&#231;in!" alt="İletişim" /></a></li>
+                </ul>
+            </div>
+            <div class="footerCenter">
+                <p>
+                    Bu siteyi ziyaret edenler <a href='tr/KullanimSartlari.html'>KULLANIM ŞARTLARI</a>'nı
+                    okumuş ve kabul etmiş sayılırlar.</p>
+                <p>
+                    T&#252;m hakları saklıdır &#169; <a href="indexe54e.html?enforceLangCode=1">kiyas.la</a>,
+                    2011-2015</p>
+            </div>
+            <div class="footerRight">
+                <a href="tr/Account/LoginAce.html">
+                    <img title="Kiyasla Mağaza Paneli" alt="Mağaza paneli" src="/Folder/Plugin/Site/xtras/images/is/v-635451791405047999/magazaPaneli.png" />
+                </a><a href="tr/MerchantRequest.html">
+                    <img title="Kiyasla'da ürünlerinizi listeleyin!" alt="Yeni Mağaza Entegrasyonu" src="/Folder/Plugin/Site/xtras/images/is/v-635451791407232002/magazaEkle.png" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/Folder/Plugin/Site/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="/Folder/Plugin/Site/bundles/jqueryuif26d"></script>
+    <script src="/Folder/Plugin/Site/bundles/kiyaslaPublicb04b"></script>
+    <script type="text/javascript">
+        $.fn.reverse = [].reverse;
+    </script>
+    <script src="/Folder/Plugin/Site/bundles/kiyaslaHome324c"></script>
+    <script src="/Folder/Plugin/Site/bundles/kiyaslaShared976e"></script>
+    <script type="text/javascript">
+        $(function () {
+            var search = new Search();
+            search.init({
+                product1Id: 'Product1',
+                product2Id: 'Product2',
+                enterAProductText: 'Ürün giriniz',
+                searchUrl: '/tr/Search/Search',
+                searchAutoCompleteUrl: '/tr/Search/SearchAutoComplete'
+            })
+        });
+    </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-25260410-1', 'kiyas.la');
+        ga('send', 'pageview');
+    </script>
+    
+</body>
+</html>
