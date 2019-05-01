@@ -30,7 +30,7 @@
     <link href="/Folder/Plugin/Site/xtras/themes/custom-theme/css3cce.css" rel="stylesheet" />
 </head>
 <body>
-    
+    <form runat="server" id="form1">
     <div class="vsDivNew">
         <div class="vsDivNewHolder">
             <div class="vsBoxV2">
@@ -38,7 +38,6 @@
                     <img src='/Folder/Plugin/Site/xtras/images/is/v-635348965910335845/logoKiyaslaNew_tr.png'
                         alt="kiyas.la | akıllı karşılaştırma motoru" />
                 </a>
-                <form action="http://kiyas.la/tr/Search/Search" id="searchForm" method="post">
                 <div class="vsForm">
                     <input id="hiddenProductType" name="hiddenProductType" type="hidden" value="-1" />
                     <input data-val="true" data-val-required="The Product1 field is required." id="Product1"
@@ -48,7 +47,6 @@
                         name="Product2" type="text" value="" />
                     <a id="kiyasla" href="#" tabindex="0">karşılaştır</a>
                 </div>
-                </form>
             </div>
         </div>
     </div>
@@ -610,6 +608,6 @@
         ga('create', 'UA-25260410-1', 'kiyas.la');
         ga('send', 'pageview');
     </script>
-    
+    </form>
 </body>
 </html>

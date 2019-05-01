@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using kiyas.la.Context;
 
 namespace kiyas.la.Folder.MasterPage
 {
@@ -11,7 +12,7 @@ namespace kiyas.la.Folder.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
+
     }
 }

@@ -2,7 +2,7 @@
     AutoEventWireup="true" CodeBehind="Detay.aspx.cs" Inherits="kiyas.la.User.Products.Detay" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContentHolder" runat="server">
-    <form id="form1" runat="server">
+    
     <asp:ListView ID="ListView1" runat="server">
         <ItemTemplate>
             <div class="thumbnail" align="left">
@@ -42,6 +42,7 @@
                             <img src="/Folder/Plugin/Site/icon/DISK_STORAGE.png" style="float: left" /><%#Eval("DahiliDepolama_GB")%>
                             GB Dahili Depolama Alanı </li>
                         <br />
+                    </ul>
                 </div>
             </div>
         </ItemTemplate>
@@ -49,16 +50,21 @@
     <asp:ListView ID="CommentView" runat="server">
         <ItemTemplate>
             <br />
-            Yorum yazan:<%#Eval("Name") %><br />
+            <h1>
+                Yorumu Yazan:<%#Eval("Name") %>
+            </h1>
             <br />
-            <%#Eval("Yorum") %><br />
+            <h1>
+            <%#Eval("Yorum") %>
+            </h1>
+            <br />
         </ItemTemplate>
     </asp:ListView>
     <br />
-    <asp:TextBox ID="Isim" runat="server"></asp:TextBox><br />
+    <asp:TextBox ID="Isim" runat="server" CssClass="form-control"></asp:TextBox><br />
     <br />
-    <asp:TextBox ID="Yorum" runat="server" TextMode="MultiLine"></asp:TextBox><br />
+    <asp:TextBox ID="Yorum" runat="server" TextMode="MultiLine" CssClass="form-control"></asp:TextBox><br />
     <br />
     <asp:Button ID="YrmEkle" runat="server" Text="Button" OnClick="YrmEkle_Click" /><br />
-    </form>
+    
 </asp:Content>

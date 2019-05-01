@@ -13,7 +13,6 @@ namespace kiyas.la.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
             if (!IsPostBack)
             {
                 using (KiyaslaContext db = new KiyaslaContext())
@@ -33,7 +32,6 @@ namespace kiyas.la.Admin
             }
 
         }
-
         protected void BtnEslestir_Click(object sender, EventArgs e)
         {
 
@@ -56,21 +54,6 @@ namespace kiyas.la.Admin
                     LblErrorMessage.Text = "Ürünler Eşleştirildi";
                 }
             }
-
-            //using (KiyaslaContext db = new KiyaslaContext())
-            //{
-            //    var bul = (from i in db.SmartPhone
-            //               where i.Id == a.SecilenSira
-            //               select i).FirstOrDefault();
-
-
-            //}
-
-
-
-
-
         }
-
     }
 }
