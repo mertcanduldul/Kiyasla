@@ -65,6 +65,6 @@
     <br />
     <asp:TextBox ID="Yorum" runat="server" TextMode="MultiLine" CssClass="form-control"></asp:TextBox><br />
     <br />
-    <asp:Button ID="YrmEkle" runat="server" Text="Button" OnClick="YrmEkle_Click" /><br />
+    <asp:Button ID="YrmEkle" runat="server" Text="Button" OnClick="YrmEkle_Click"/><br />
     
 </asp:Content>

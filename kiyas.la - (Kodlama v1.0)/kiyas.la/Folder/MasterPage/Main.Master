@@ -39,13 +39,8 @@
                         alt="kiyas.la | akıllı karşılaştırma motoru" />
                 </a>
                 <div class="vsForm">
-                    <input id="hiddenProductType" name="hiddenProductType" type="hidden" value="-1" />
-                    <input data-val="true" data-val-required="The Product1 field is required." id="Product1"
-                        name="Product1" type="text" value="" />
-                    <span>vs</span>
-                    <input data-val="true" data-val-required="The Product2 field is required." id="Product2"
-                        name="Product2" type="text" value="" />
-                    <a id="kiyasla" href="#" tabindex="0">karşılaştır</a>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
                 </div>
             </div>
         </div>

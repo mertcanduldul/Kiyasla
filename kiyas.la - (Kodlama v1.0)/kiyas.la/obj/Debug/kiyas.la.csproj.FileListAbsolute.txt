@@ -110,3 +110,11 @@ C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v2.1)+(Themes Complete) +V1.6\kiya
 C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v2.1)+(Themes Complete) +V1.6\kiyas.la\obj\Debug\kiyas.la.csprojResolveAssemblyReference.cache
 C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v2.1)+(Themes Complete) +V1.6\kiyas.la\obj\Debug\kiyas.la.dll
 C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v2.1)+(Themes Complete) +V1.6\kiyas.la\obj\Debug\kiyas.la.pdb
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v2.1)+(Themes Complete) +V1.7\kiyas.la\bin\kiyas.la.dll
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v2.1)+(Themes Complete) +V1.7\kiyas.la\bin\kiyas.la.pdb
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v2.1)+(Themes Complete) +V1.7\kiyas.la\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v2.1)+(Themes Complete) +V1.7\kiyas.la\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v2.1)+(Themes Complete) +V1.7\kiyas.la\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v2.1)+(Themes Complete) +V1.7\kiyas.la\obj\Debug\kiyas.la.csprojResolveAssemblyReference.cache
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v2.1)+(Themes Complete) +V1.7\kiyas.la\obj\Debug\kiyas.la.dll
+C:\Users\MERT CAN\Desktop\kiyas.la - (Kodlama v2.1)+(Themes Complete) +V1.7\kiyas.la\obj\Debug\kiyas.la.pdb

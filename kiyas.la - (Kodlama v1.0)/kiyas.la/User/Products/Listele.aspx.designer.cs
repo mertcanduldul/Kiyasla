@@ -13,6 +13,33 @@ namespace kiyas.la.User.Products {
     public partial class Listele {
         
         /// <summary>
+        /// Product1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList Product1;
+        
+        /// <summary>
+        /// Product2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList Product2;
+        
+        /// <summary>
+        /// BtnKarsilastir control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnKarsilastir;
+        
+        /// <summary>
         /// ListView1 control.
         /// </summary>
         /// <remarks>

@@ -13,6 +13,5 @@ namespace kiyas.la.Folder.MasterPage
         protected void Page_Load(object sender, EventArgs e)
         {
         }
-
     }
 }
