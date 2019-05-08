@@ -415,42 +415,8 @@
                     </li>
                 </ul>
             </div>
-            
-                <asp:ContentPlaceHolder ID="MainContentHolder" runat="server">
-                </asp:ContentPlaceHolder>
-          
-        </div>
-    </div>
-    <div class="footerDiv">
-        <div class="holder footerBck">
-            <div class="footerLeft">
-                <ul>
-                    <li><a href="http://www.twitter.com/kiyasla1" target="_new">
-                        <img src="/Folder/Plugin/Site/xtras/images/is/v-635348965720483512/footer_new_twitter.png"
-                            title="Bizi Twitter&#39;da takip edin" alt="Twitter Logo" /></a></li>
-                    <li><a href="http://www.facebook.com/kiyasla" target="_new">
-                        <img src="/Folder/Plugin/Site/xtras/images/is/v-635348965713619500/footer_new_facebook.png"
-                            title="Facebook sayfamızı ziyaret edin" alt="Facebook Logo" /></a></li>
-                    <li><a href="tr/Contact.html">
-                        <img src="/Folder/Plugin/Site/xtras/images/is/v-635348965702543480/footer_new_contactUs.png"
-                            title="Bizimle iletişime ge&#231;in!" alt="İletişim" /></a></li>
-                </ul>
-            </div>
-            <div class="footerCenter">
-                <p>
-                    Bu siteyi ziyaret edenler <a href='tr/KullanimSartlari.html'>KULLANIM ŞARTLARI</a>'nı
-                    okumuş ve kabul etmiş sayılırlar.</p>
-                <p>
-                    T&#252;m hakları saklıdır &#169; <a href="indexe54e.html?enforceLangCode=1">kiyas.la</a>,
-                    2011-2015</p>
-            </div>
-            <div class="footerRight">
-                <a href="tr/Account/LoginAce.html">
-                    <img title="Kiyasla Mağaza Paneli" alt="Mağaza paneli" src="/Folder/Plugin/Site/xtras/images/is/v-635451791405047999/magazaPaneli.png" />
-                </a><a href="tr/MerchantRequest.html">
-                    <img title="Kiyasla'da ürünlerinizi listeleyin!" alt="Yeni Mağaza Entegrasyonu" src="/Folder/Plugin/Site/xtras/images/is/v-635451791407232002/magazaEkle.png" />
-                </a>
-            </div>
+            <asp:ContentPlaceHolder ID="MainContentHolder" runat="server">
+            </asp:ContentPlaceHolder>
         </div>
     </div>
     <script type="text/javascript" src="/Folder/Plugin/Site/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
@@ -461,29 +427,6 @@
     </script>
     <script src="/Folder/Plugin/Site/bundles/kiyaslaHome324c"></script>
     <script src="/Folder/Plugin/Site/bundles/kiyaslaShared976e"></script>
-    <script type="text/javascript">
-        $(function () {
-            var search = new Search();
-            search.init({
-                product1Id: 'Product1',
-                product2Id: 'Product2',
-                enterAProductText: 'Ürün giriniz',
-                searchUrl: '/tr/Search/Search',
-                searchAutoCompleteUrl: '/tr/Search/SearchAutoComplete'
-            })
-        });
-    </script>
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-25260410-1', 'kiyas.la');
-        ga('send', 'pageview');
-    </script>
     </form>
 </body>
 </html>
