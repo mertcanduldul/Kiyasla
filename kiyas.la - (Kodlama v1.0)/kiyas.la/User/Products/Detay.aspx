@@ -2,10 +2,9 @@
     AutoEventWireup="true" CodeBehind="Detay.aspx.cs" Inherits="kiyas.la.User.Products.Detay" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContentHolder" runat="server">
-    
-    <asp:ListView ID="ListView1" runat="server">
-        <ItemTemplate>
-            <div class="thumbnail" align="left">
+    <div class="popularComparisons">
+        <asp:ListView ID="ListView1" runat="server">
+            <ItemTemplate>
                 <img src="<%#Eval("Fotograf") %>" alt="" />
                 <div class="caption" align="left">
                     <h2>
@@ -44,9 +43,9 @@
                         <br />
                     </ul>
                 </div>
-            </div>
-        </ItemTemplate>
-    </asp:ListView>
+            </ItemTemplate>
+        </asp:ListView>
+    </div>
     <asp:ListView ID="CommentView" runat="server">
         <ItemTemplate>
             <br />
@@ -55,7 +54,7 @@
             </h1>
             <br />
             <h1>
-            <%#Eval("Yorum") %>
+                <%#Eval("Yorum") %>
             </h1>
             <br />
         </ItemTemplate>
@@ -65,6 +64,5 @@
     <br />
     <asp:TextBox ID="Yorum" runat="server" TextMode="MultiLine" CssClass="form-control"></asp:TextBox><br />
     <br />
-    <asp:Button ID="YrmEkle" runat="server" Text="Button" OnClick="YrmEkle_Click"/><br />
-    
+    <asp:Button ID="YrmEkle" runat="server" Text="Button" OnClick="YrmEkle_Click" /><br />
 </asp:Content>

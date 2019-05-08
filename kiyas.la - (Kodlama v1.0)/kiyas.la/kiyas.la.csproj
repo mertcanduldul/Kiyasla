@@ -999,6 +999,7 @@
     <Content Include="Folder\Plugin\Site\xtras\themes\custom-theme\images\ui-icons_ffffff_256x240.png" />
     <Content Include="Global.asax" />
     <Content Include="User\Products\Detay.aspx" />
+    <Content Include="User\Products\Karsilastir.aspx" />
     <Content Include="User\Products\Listele.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -1074,6 +1075,13 @@
     </Compile>
     <Compile Include="User\Products\Detay.aspx.designer.cs">
       <DependentUpon>Detay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Products\Karsilastir.aspx.cs">
+      <DependentUpon>Karsilastir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Products\Karsilastir.aspx.designer.cs">
+      <DependentUpon>Karsilastir.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\Products\Listele.aspx.cs">
       <DependentUpon>Listele.aspx</DependentUpon>

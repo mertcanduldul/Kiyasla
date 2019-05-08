@@ -8,12 +8,13 @@
     <span>vs</span>
     <asp:DropDownList ID="Product2" runat="server" name="Product2" type="" value="">
     </asp:DropDownList>
-    <asp:Button ID="BtnKarsilastir" runat="server" Text="Karşılaştır" CssClass="btn btn-info" />
+    <asp:Button ID="BtnKarsilastir" runat="server" Text="Karşılaştır" CssClass="btn btn-info"
+        OnClick="BtnKarsilastir_Click" />
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContentHolder" runat="server">
-    <asp:ListView ID="ListView1" runat="server">
-        <ItemTemplate>
-            <div class="thumbnail">
+    <div class="popularComparisons">
+        <asp:ListView ID="ListView1" runat="server">
+            <ItemTemplate>
                 <img src="<%#Eval("Fotograf") %>" alt="" />
                 <div class="caption">
                     <h2>
@@ -36,7 +37,7 @@
                     <%#Eval("DahiliDepolama_GB")%>
                     GB Dahili Depolama Alanı<br />
                 </div>
-            </div>
-        </ItemTemplate>
-    </asp:ListView>
+            </ItemTemplate>
+        </asp:ListView>
+    </div>
 </asp:Content>

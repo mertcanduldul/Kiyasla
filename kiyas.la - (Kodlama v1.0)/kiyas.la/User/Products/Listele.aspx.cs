@@ -27,22 +27,20 @@ namespace kiyas.la.User.Products
                     //tüm ürünleri yükle
                     LoadProducts();
                 }
+                using (KiyaslaContext db = new KiyaslaContext())
+                {
+                    Product1.DataSource = db.SmartPhone.ToList();
+                    Product1.DataTextField = "TelefonMarkasi";
+                    Product1.DataValueField = "Id";
+                    Product1.DataBind();
 
+                    Product2.DataSource = db.SmartPhone.ToList();
+                    Product2.DataTextField = "TelefonMarkasi";
+                    Product2.DataValueField = "Id";
+                    Product2.DataBind();
+                }
             }
-            using (KiyaslaContext db = new KiyaslaContext())
-            {
-                Product1.DataSource = db.SmartPhone.ToList();
-                Product1.DataTextField = "TelefonMarkasi";
-                Product1.DataValueField = "id";
-                Product1.DataBind();
-            }
-            using (KiyaslaContext db = new KiyaslaContext())
-            {
-                Product2.DataSource = db.SmartPhone.ToList();
-                Product2.DataTextField = "TelefonMarkasi";
-                Product2.DataValueField = "id";
-                Product2.DataBind();
-            }
+           
 
 
         }
@@ -64,6 +62,11 @@ namespace kiyas.la.User.Products
                 ListView1.DataSource = db.SmartPhone.ToList();
                 ListView1.DataBind();
             }
+        }
+
+        protected void BtnKarsilastir_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Karsilastir?p1=" + Product1.SelectedValue.ToString() + "&p2=" + Product2.SelectedValue.ToString());
         }
     }
 }
