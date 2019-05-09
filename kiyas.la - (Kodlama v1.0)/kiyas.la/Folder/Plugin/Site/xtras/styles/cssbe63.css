@@ -1525,11 +1525,15 @@ unknownItemh2 {
     position: relative;
     clear: both;
     margin: 10px 0;
+    top: -10px;
+    left: 0px;
+    height: 324px;
 }
 
     .vsHeader table {
-        width: 100%;
-    }
+        width: 96%;
+    height: 313px;
+}
 
         .vsHeader table td span {
             display: block;

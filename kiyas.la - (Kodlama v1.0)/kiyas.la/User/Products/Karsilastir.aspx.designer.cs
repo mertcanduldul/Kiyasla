@@ -22,67 +22,22 @@ namespace kiyas.la.User.Products {
         protected global::System.Web.UI.WebControls.Image Urun1Img;
         
         /// <summary>
-        /// LblUrunAdi1 control.
+        /// LblUrunMarkaAdi1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblUrunAdi1;
+        protected global::System.Web.UI.WebControls.Label LblUrunMarkaAdi1;
         
         /// <summary>
-        /// LblRam1 control.
+        /// LblUrunModelAdi1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblRam1;
-        
-        /// <summary>
-        /// LblİslemciMarkasi1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblİslemciMarkasi1;
-        
-        /// <summary>
-        /// LblIslemciHizCekirdek1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblIslemciHizCekirdek1;
-        
-        /// <summary>
-        /// LblArkaKamera1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblArkaKamera1;
-        
-        /// <summary>
-        /// LblBatarya1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblBatarya1;
-        
-        /// <summary>
-        /// LblDepolama1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblDepolama1;
+        protected global::System.Web.UI.WebControls.Label LblUrunModelAdi1;
         
         /// <summary>
         /// Urun2Img control.
@@ -94,13 +49,31 @@ namespace kiyas.la.User.Products {
         protected global::System.Web.UI.WebControls.Image Urun2Img;
         
         /// <summary>
-        /// LblUrunAdi2 control.
+        /// LblUrunMarkaAdi2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblUrunAdi2;
+        protected global::System.Web.UI.WebControls.Label LblUrunMarkaAdi2;
+        
+        /// <summary>
+        /// LblUrunModelAdi2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblUrunModelAdi2;
+        
+        /// <summary>
+        /// LblRam1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblRam1;
         
         /// <summary>
         /// LblRam2 control.
@@ -112,6 +85,24 @@ namespace kiyas.la.User.Products {
         protected global::System.Web.UI.WebControls.Label LblRam2;
         
         /// <summary>
+        /// LblKarsilastirmaRamSnc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblKarsilastirmaRamSnc;
+        
+        /// <summary>
+        /// LblİslemciMarkasi1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblİslemciMarkasi1;
+        
+        /// <summary>
         /// LblİslemciMarkasi2 control.
         /// </summary>
         /// <remarks>
@@ -119,6 +110,24 @@ namespace kiyas.la.User.Products {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblİslemciMarkasi2;
+        
+        /// <summary>
+        /// LblKarsilastirmaİslemciMarkaSnc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblKarsilastirmaİslemciMarkaSnc;
+        
+        /// <summary>
+        /// LblIslemciHizCekirdek1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblIslemciHizCekirdek1;
         
         /// <summary>
         /// LblIslemciHizCekirdek2 control.
@@ -130,6 +139,24 @@ namespace kiyas.la.User.Products {
         protected global::System.Web.UI.WebControls.Label LblIslemciHizCekirdek2;
         
         /// <summary>
+        /// LblKarsilastirmaİslemciHizCkrdkSnc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblKarsilastirmaİslemciHizCkrdkSnc;
+        
+        /// <summary>
+        /// LblArkaKamera1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblArkaKamera1;
+        
+        /// <summary>
         /// LblArkaKamera2 control.
         /// </summary>
         /// <remarks>
@@ -139,21 +166,12 @@ namespace kiyas.la.User.Products {
         protected global::System.Web.UI.WebControls.Label LblArkaKamera2;
         
         /// <summary>
-        /// LblBatarya2 control.
+        /// LblArkaKameraSnc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblBatarya2;
-        
-        /// <summary>
-        /// LblDepolama2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblDepolama2;
+        protected global::System.Web.UI.WebControls.Label LblArkaKameraSnc;
     }
 }

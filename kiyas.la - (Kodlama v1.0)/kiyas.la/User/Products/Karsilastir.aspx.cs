@@ -18,31 +18,118 @@ namespace kiyas.la.User.Products
                 {
                     int p1Id = int.Parse(Request.QueryString["p1"].ToString());
                     int p2Id = int.Parse(Request.QueryString["p2"].ToString());
-                    using (KiyaslaContext db = new KiyaslaContext())
+                    if (p1Id == p2Id)
                     {
-                        var p1 = (from i in db.SmartPhone
-                                  where i.Id == p1Id
-                                  select i).FirstOrDefault();
-                        var p2 = (from i in db.SmartPhone
-                                  where i.Id == p2Id
-                                  select i).FirstOrDefault();
-                        LblUrunAdi1.Text = (p1.TelefonMarkasi) + " " + (p1.TelefonModeli);
-                        LblUrunAdi2.Text = (p2.TelefonMarkasi) + " " + (p2.TelefonModeli);
-                        Urun1Img.ImageUrl = p1.Fotograf;
-                        Urun2Img.ImageUrl = p2.Fotograf;
-                        LblRam1.Text = p1.RAM.ToString();
-                        LblİslemciMarkasi1.Text = p1.İslemciMarkasi;
-                        LblIslemciHizCekirdek1.Text = ((p1.İslemciHizi_Ghz) + " Ghz " + " " + (p1.İslemciCekirdek)).ToString() + " Çekirdek";
-                        LblArkaKamera1.Text = p1.ArkaKamerapixel.ToString();
-                        LblBatarya1.Text = p1.Batarya_Mh.ToString();
-                        LblDepolama1.Text = p1.DahiliDepolama_GB.ToString();
+                        Response.Redirect("Listele.aspx");
+                    }
+                    else
+                    {
+                        using (KiyaslaContext db = new KiyaslaContext())
+                        {
+                            var p1 = (from i in db.SmartPhone
+                                      where i.Id == p1Id
+                                      select i).FirstOrDefault();
+                            var p2 = (from i in db.SmartPhone
+                                      where i.Id == p2Id
+                                      select i).FirstOrDefault();
+                            LblUrunMarkaAdi1.Text = (p1.TelefonMarkasi);
+                            LblUrunMarkaAdi2.Text = (p2.TelefonMarkasi);
+                            LblUrunModelAdi1.Text = p1.TelefonModeli;
+                            LblUrunModelAdi2.Text = p2.TelefonModeli;
+                            Urun1Img.ImageUrl = p1.Fotograf;
+                            Urun2Img.ImageUrl = p2.Fotograf;
+                            LblRam1.Text = p1.RAM.ToString() + " GB";
+                            LblRam2.Text = p2.RAM.ToString() + " GB";
+                            LblİslemciMarkasi1.Text = p1.İslemciMarkasi;
+                            LblIslemciHizCekirdek1.Text = ((p1.İslemciHizi_Ghz) + " Ghz " + " " + (p1.İslemciCekirdek)).ToString() + " Çekirdek";
+                            LblİslemciMarkasi2.Text = p2.İslemciMarkasi;
+                            LblIslemciHizCekirdek2.Text = ((p2.İslemciHizi_Ghz) + " Ghz " + " " + (p2.İslemciCekirdek)).ToString() + " Çekirdek";
+                            //LblArkaKamera1.Text = p1.ArkaKamerapixel.ToString();
+                            //LblBatarya1.Text = p1.Batarya_Mh.ToString();
+                            //LblDepolama1.Text = p1.DahiliDepolama_GB.ToString();
+                            //LblArkaKamera2.Text = p2.ArkaKamerapixel.ToString();
+                            //LblBatarya2.Text = p2.Batarya_Mh.ToString();
+                            //LblDepolama2.Text = p2.DahiliDepolama_GB.ToString();
 
-                        LblRam2.Text = p2.RAM.ToString();
-                        LblİslemciMarkasi2.Text = p2.İslemciMarkasi;
-                        LblIslemciHizCekirdek2.Text = ((p2.İslemciHizi_Ghz) + " Ghz " + " " + (p2.İslemciCekirdek)).ToString() + " Çekirdek";
-                        LblArkaKamera2.Text = p2.ArkaKamerapixel.ToString();
-                        LblBatarya2.Text = p2.Batarya_Mh.ToString();
-                        LblDepolama2.Text = p2.DahiliDepolama_GB.ToString();
+
+                            if (p1 != null || p2 != null)
+                            {
+                                {
+                                    if (p1.RAM > p2.RAM)
+                                    {
+                                        LblKarsilastirmaRamSnc.Text = p1.TelefonModeli + " Modelinde Ram Miktarı Daha Fazla.";
+                                    }
+                                    else if (p1.RAM == p2.RAM)
+                                    {
+                                        LblKarsilastirmaRamSnc.Text = " RAM Miktarları Aynı ";
+                                    }
+                                    else if (p2.RAM > p1.RAM)
+                                    {
+                                        LblKarsilastirmaRamSnc.Text = p2.TelefonModeli + " Modelinde Ram Miktarı Daha Fazla.";
+                                    }
+                                }
+                                {
+                                    if (LblİslemciMarkasi1.Text == "Qualcomm" && LblİslemciMarkasi2.Text == "Qualcomm")
+                                    {
+                                        LblKarsilastirmaİslemciMarkaSnc.Text = "Işlemciler Ayni";
+                                    }
+                                    else if (LblİslemciMarkasi1.Text == "MediaTek" && LblİslemciMarkasi2.Text == "Qualcomm")
+                                    {
+                                        LblKarsilastirmaİslemciMarkaSnc.Text = " Qualcomm Işlemciler Daha Stabilizedir. ";
+                                    }
+                                    else if (LblİslemciMarkasi1.Text == "Qualcomm" && LblİslemciMarkasi2.Text == "MediaTek")
+                                    {
+                                        LblKarsilastirmaİslemciMarkaSnc.Text = " Qualcomm Işlemciler Daha Stabilizedir. ";
+                                    }
+                                    else if (LblİslemciMarkasi1.Text == "Samsung Exynos" && LblİslemciMarkasi2.Text == "Qualcomm")
+                                    {
+                                        LblKarsilastirmaİslemciMarkaSnc.Text = "Performans Açısından Qualcomm Marka İşlemciler Daha İyidir. ";
+                                    }
+                                    else if (LblİslemciMarkasi1.Text == "Qualcomm" && LblİslemciMarkasi2.Text == "Samsung Exynos")
+                                    {
+                                        LblKarsilastirmaİslemciMarkaSnc.Text = "Performans Açısından Qualcomm Marka İşlemciler Daha İyidir. ";
+                                    }
+                                    else if (LblİslemciMarkasi1.Text == "Samsung Exynos" && LblİslemciMarkasi2.Text == "MediaTek")
+                                    {
+                                        LblKarsilastirmaİslemciMarkaSnc.Text = "Samsung Işlemciler MediaTek İşlemcilere Göre Daha Az Güç Harcar. ";
+                                    }
+
+                                }
+                                {
+                                    if (p1.İslemciHizi_Ghz > p2.İslemciHizi_Ghz || p1.İslemciCekirdek > p2.İslemciCekirdek)
+                                    {
+                                        double a = (p1.İslemciHizi_Ghz) * p2.İslemciHizi_Ghz;
+                                        LblKarsilastirmaİslemciHizCkrdkSnc.Text = "Uygulamalarınız ve oyunlarınız için daha güçlü ve hızlı bir işlemci" + " Yaklaşık " + "%" + a.ToString();
+                                    }
+                                    else
+                                    {
+                                        double a = (p1.İslemciHizi_Ghz) * p2.İslemciHizi_Ghz;
+                                        LblKarsilastirmaİslemciHizCkrdkSnc.Text = "Uygulamalarınız ve oyunlarınız için daha güçlü ve hızlı bir işlemci " + " Yaklaşık  " + "%" + a.ToString();
+                                    }
+
+                                }
+                                {
+                                    if (p1.ArkaKamerapixel > p2.ArkaKamerapixel)
+                                    {
+                                        double a = (p1.ArkaKamerapixel / p2.ArkaKamerapixel) * 10;
+                                        LblArkaKameraSnc.Text = "Fotoğraflarınızı, büyük ve kaliteli baskı için" + a.ToString() + " kat daha detaylı çekin";
+                                    }
+                                    else if(p1.ArkaKamerapixel<p2.ArkaKamerapixel)
+                                    {
+                                        double a = (p2.ArkaKamerapixel / p1.ArkaKamerapixel) * 10;
+                                        LblArkaKameraSnc.Text = "Fotoğraflarınızı, büyük ve kaliteli baskı için" + a.ToString() + " kat daha detaylı çekin";
+                                    }
+                                    else if(p1.ArkaKamerapixel==p2.ArkaKamerapixel)
+                                    {
+                                        LblArkaKameraSnc.Text = "Aynı Özellikte Kameralar Mevcut";
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                Response.Redirect("Listele.aspx");
+                            }
+                        }
                     }
 
                 }
