@@ -209,13 +209,43 @@
                     Kamera</center>
             </span><span class="itemFirst">
                 <center>
-                    <asp:Label ID="LblArkaKamera1" runat="server" Text=""></asp:Label>MP</center>
+                    <asp:Label ID="LblArkaKamera1" runat="server" Text=""></asp:Label></center>
             </span><span class="versus">vs</span> <span class="itemSecond">
                 <center>
-                    <asp:Label ID="LblArkaKamera2" runat="server" Text=""></asp:Label>MP</center>
+                    <asp:Label ID="LblArkaKamera2" runat="server" Text=""></asp:Label></center>
             </span><span class="itemPropDesc">
                 <center>
                     <asp:Label ID="LblArkaKameraSnc" runat="server" Text=""></asp:Label></center>
+            </span></li>
+            <li><span class="specImg">
+                <img src="/Folder/Plugin/Site/icon/BATTERY_USAGE_TIME_3G.png" />
+            </span><span class="itemProp">
+                <center>
+                    Batarya Mh</center>
+            </span><span class="itemFirst">
+                <center>
+                    <asp:Label ID="LblBatarya1" runat="server" Text=""></asp:Label>Mh</center>
+            </span><span class="versus">vs</span> <span class="itemSecond">
+                <center>
+                    <asp:Label ID="LblBatarya2" runat="server" Text=""></asp:Label>Mh</center>
+            </span><span class="itemPropDesc">
+                <center>
+                    <asp:Label ID="LblBataryaSnc" runat="server" Text=""></asp:Label></center>
+            </span></li>
+            <li><span class="specImg">
+                <img src="/Folder/Plugin/Site/icon/DISK_STORAGE.png" style="float: left" />
+            </span><span class="itemProp">
+                <center>
+                    Depolama Alanı</center>
+            </span><span class="itemFirst">
+                <center>
+                    <asp:Label ID="LblDepolama1" runat="server" Text=""></asp:Label></center>
+            </span><span class="versus">vs</span> <span class="itemSecond">
+                <center>
+                    <asp:Label ID="LblDepolama2" runat="server" Text=""></asp:Label></center>
+            </span><span class="itemPropDesc">
+                <center>
+                    <asp:Label ID="LblDepolamaSnc" runat="server" Text=""></asp:Label></center>
             </span></li>
         </ul>
     </div>
