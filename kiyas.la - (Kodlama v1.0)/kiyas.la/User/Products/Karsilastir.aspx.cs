@@ -32,8 +32,8 @@ namespace kiyas.la.User.Products
                             var p2 = (from i in db.SmartPhone
                                       where i.Id == p2Id
                                       select i).FirstOrDefault();
-                            LblUrunMarkaAdi1.Text = (p1.TelefonMarkasi);
-                            LblUrunMarkaAdi2.Text = (p2.TelefonMarkasi);
+                            LblUrunMarkaAdi1.Text = p1.TelefonMarkasi;
+                            LblUrunMarkaAdi2.Text = p2.TelefonMarkasi;
                             LblUrunModelAdi1.Text = p1.TelefonModeli;
                             LblUrunModelAdi2.Text = p2.TelefonModeli;
                             Urun1Img.ImageUrl = p1.Fotograf;
@@ -50,6 +50,8 @@ namespace kiyas.la.User.Products
                             LblArkaKamera2.Text = p2.ArkaKamerapixel.ToString();
                             LblBatarya2.Text = p2.Batarya_Mh.ToString();
                             LblDepolama2.Text = p2.DahiliDepolama_GB.ToString();
+                            LblOnKmr1.Text = p1.ÖnKamerapixel.ToString();
+                            LblOnKmr2.Text = p2.ÖnKamerapixel.ToString();
 
 
                             if (p1 != null || p2 != null)
@@ -69,27 +71,39 @@ namespace kiyas.la.User.Products
                                     }
                                 }
                                 {
-                                    if (LblİslemciMarkasi1.Text == "Qualcomm" && LblİslemciMarkasi2.Text == "Qualcomm")
+                                    if (LblİslemciMarkasi1.Text == "Qualcomm Snapdragon" && LblİslemciMarkasi2.Text == "Qualcomm Snapdragon")
                                     {
                                         LblKarsilastirmaİslemciMarkaSnc.Text = "Işlemciler Ayni";
                                     }
-                                    else if (LblİslemciMarkasi1.Text == "MediaTek" && LblİslemciMarkasi2.Text == "Qualcomm")
+                                    else if (LblİslemciMarkasi1.Text == "MediaTek MT" && LblİslemciMarkasi2.Text == "Qualcomm Snapdragon")
                                     {
                                         LblKarsilastirmaİslemciMarkaSnc.Text = " Qualcomm Işlemciler Daha Stabilizedir. ";
                                     }
-                                    else if (LblİslemciMarkasi1.Text == "Qualcomm" && LblİslemciMarkasi2.Text == "MediaTek")
+                                    else if (LblİslemciMarkasi1.Text == "Qualcomm Snapdragon" && LblİslemciMarkasi2.Text == "MediaTek MT")
                                     {
                                         LblKarsilastirmaİslemciMarkaSnc.Text = " Qualcomm Işlemciler Daha Stabilizedir. ";
                                     }
-                                    else if (LblİslemciMarkasi1.Text == "Samsung Exynos" && LblİslemciMarkasi2.Text == "Qualcomm")
+                                    else if (LblİslemciMarkasi2.Text == "Qualcomm Snapdragon" && LblİslemciMarkasi1.Text == "MediaTek MT")
+                                    {
+                                        LblKarsilastirmaİslemciMarkaSnc.Text = " Qualcomm Işlemciler Daha Stabilizedir. ";
+                                    }
+                                    else if (LblİslemciMarkasi1.Text == "Samsung Exynos" && LblİslemciMarkasi2.Text == "Qualcomm Snapdragon")
                                     {
                                         LblKarsilastirmaİslemciMarkaSnc.Text = "Performans Açısından Qualcomm Marka İşlemciler Daha İyidir. ";
                                     }
-                                    else if (LblİslemciMarkasi1.Text == "Qualcomm" && LblİslemciMarkasi2.Text == "Samsung Exynos")
+                                    else if (LblİslemciMarkasi1.Text == "Qualcomm Snapdragon" && LblİslemciMarkasi2.Text == "Samsung Exynos")
                                     {
                                         LblKarsilastirmaİslemciMarkaSnc.Text = "Performans Açısından Qualcomm Marka İşlemciler Daha İyidir. ";
                                     }
-                                    else if (LblİslemciMarkasi1.Text == "Samsung Exynos" && LblİslemciMarkasi2.Text == "MediaTek")
+                                    else if (LblİslemciMarkasi1.Text == "Samsung Exynos" && LblİslemciMarkasi2.Text == "MediaTek MT")
+                                    {
+                                        LblKarsilastirmaİslemciMarkaSnc.Text = "Samsung Işlemciler MediaTek İşlemcilere Göre Daha Az Güç Harcar. ";
+                                    }
+                                    else if (LblİslemciMarkasi1.Text == "Samsung Exynos" && LblİslemciMarkasi2.Text == "Samsung Exynos")
+                                    {
+                                        LblKarsilastirmaİslemciMarkaSnc.Text = "Işlemciler Ayni. ";
+                                    }
+                                    else if (LblİslemciMarkasi2.Text == "Samsung Exynos" && LblİslemciMarkasi1.Text == "MediaTek MT")
                                     {
                                         LblKarsilastirmaİslemciMarkaSnc.Text = "Samsung Işlemciler MediaTek İşlemcilere Göre Daha Az Güç Harcar. ";
                                     }
@@ -98,13 +112,13 @@ namespace kiyas.la.User.Products
                                 {
                                     if (p1.İslemciHizi_Ghz > p2.İslemciHizi_Ghz || p1.İslemciCekirdek > p2.İslemciCekirdek)
                                     {
-                                        double a = (p1.İslemciHizi_Ghz) * p2.İslemciHizi_Ghz;
-                                        LblKarsilastirmaİslemciHizCkrdkSnc.Text = "Uygulamalarınız ve oyunlarınız için daha güçlü ve hızlı bir işlemci" + " Yaklaşık " + "%" + a.ToString();
+                                        double a = (p1.İslemciHizi_Ghz) / p2.İslemciHizi_Ghz;
+                                        LblKarsilastirmaİslemciHizCkrdkSnc.Text = "Uygulamalarınız ve oyunlarınız için daha güçlü ve hızlı bir işlemci" + " Yaklaşık " + "%" + Math.Round(a, 2).ToString();
                                     }
                                     else
                                     {
-                                        double a = (p1.İslemciHizi_Ghz) * p2.İslemciHizi_Ghz;
-                                        LblKarsilastirmaİslemciHizCkrdkSnc.Text = "Uygulamalarınız ve oyunlarınız için daha güçlü ve hızlı bir işlemci " + " Yaklaşık  " + "%" + a.ToString();
+                                        double a = (p1.İslemciHizi_Ghz) / p2.İslemciHizi_Ghz;
+                                        LblKarsilastirmaİslemciHizCkrdkSnc.Text = "Uygulamalarınız ve oyunlarınız için daha güçlü ve hızlı bir işlemci " + " Yaklaşık  " + "%" + Math.Round(a, 2).ToString();
                                     }
 
                                 }
@@ -158,6 +172,22 @@ namespace kiyas.la.User.Products
                                         LblDepolamaSnc.Text = " Depolama Alanları Aynı Büyüklükte. ";
                                     }
                                 }
+                                {
+                                    if (p1.ÖnKamerapixel < p2.ÖnKamerapixel)
+                                    {
+                                        double a = p1.ÖnKamerapixel / p2.ÖnKamerapixel;
+                                        LblOnKmrSnc.Text = " % " + Math.Round(a, 2) + "Daha iyi kaliteli Fotoğraf";
+                                    }
+                                    else if (p1.ÖnKamerapixel > p2.ÖnKamerapixel)
+                                    {
+                                        double a = p1.ÖnKamerapixel / p2.ÖnKamerapixel;
+                                        LblOnKmrSnc.Text = " % " + Math.Round(a, 2) + "Daha iyi kaliteli Fotoğraf";
+                                    }
+                                    else if (p1.ÖnKamerapixel == p2.ÖnKamerapixel)
+                                    {
+                                        LblOnKmrSnc.Text = "Kameralar Aynı Kalitede. ";
+                                    }
+                                }
                             }
                             else
                             {
@@ -165,7 +195,6 @@ namespace kiyas.la.User.Products
                             }
                         }
                     }
-
                 }
             }
         }

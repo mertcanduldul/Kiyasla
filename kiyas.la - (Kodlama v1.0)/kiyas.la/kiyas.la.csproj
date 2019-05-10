@@ -65,9 +65,7 @@
   <ItemGroup>
     <Content Include="Admin\Detay.aspx" />
     <Content Include="Admin\Ekle.aspx" />
-    <Content Include="Admin\Eslesmeler.aspx" />
     <Content Include="Admin\Listele.aspx" />
-    <Content Include="Admin\ÜrünEslestir.aspx" />
     <Content Include="Folder\Plugin\bootstrap-3.3.4-dist\css\bootstrap-theme.css" />
     <Content Include="Folder\Plugin\bootstrap-3.3.4-dist\css\bootstrap-theme.min.css" />
     <Content Include="Folder\Plugin\bootstrap-3.3.4-dist\css\bootstrap.css" />
@@ -96,6 +94,7 @@
     <Content Include="Folder\Plugin\Site\Phone\Apple\IPHONE6BLACK.jpg" />
     <Content Include="Folder\Plugin\Site\Phone\Blackberry\BlackberryPassport.jpg" />
     <Content Include="Folder\Plugin\Site\Phone\Blackberry\BlackberryZ30.jpg" />
+    <Content Include="Folder\Plugin\Site\Phone\General Mobile\Discovery.jpg" />
     <Content Include="Folder\Plugin\Site\Phone\HTC\M8.jpg" />
     <Content Include="Folder\Plugin\Site\Phone\HTC\M9.jpg" />
     <Content Include="Folder\Plugin\Site\Phone\LG\G2.jpg" />
@@ -1024,13 +1023,6 @@
     <Compile Include="Admin\Ekle.aspx.designer.cs">
       <DependentUpon>Ekle.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Eslesmeler.aspx.cs">
-      <DependentUpon>Eslesmeler.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\Eslesmeler.aspx.designer.cs">
-      <DependentUpon>Eslesmeler.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Admin\Listele.aspx.cs">
       <DependentUpon>Listele.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1038,18 +1030,10 @@
     <Compile Include="Admin\Listele.aspx.designer.cs">
       <DependentUpon>Listele.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\ÜrünEslestir.aspx.cs">
-      <DependentUpon>ÜrünEslestir.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\ÜrünEslestir.aspx.designer.cs">
-      <DependentUpon>ÜrünEslestir.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Context\KiyaslaContext.cs" />
     <Compile Include="Context\Kiyaslaİnitializer.cs" />
     <Compile Include="Entities\Comment.cs" />
-    <Compile Include="Entities\Eslestir.cs" />
     <Compile Include="Entities\Phone.cs" />
     <Compile Include="Folder\MasterPage\Admin.Master.cs">
       <DependentUpon>Admin.Master</DependentUpon>

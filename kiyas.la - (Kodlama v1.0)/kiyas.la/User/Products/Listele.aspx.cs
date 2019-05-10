@@ -30,17 +30,17 @@ namespace kiyas.la.User.Products
                 using (KiyaslaContext db = new KiyaslaContext())
                 {
                     Product1.DataSource = db.SmartPhone.ToList();
-                    Product1.DataTextField = "TelefonMarkasi";
+                    Product1.DataTextField = "MarkaModel";
                     Product1.DataValueField = "Id";
                     Product1.DataBind();
 
                     Product2.DataSource = db.SmartPhone.ToList();
-                    Product2.DataTextField = "TelefonMarkasi";
+                    Product2.DataTextField = "MarkaModel";
                     Product2.DataValueField = "Id";
                     Product2.DataBind();
                 }
             }
-           
+
 
 
         }

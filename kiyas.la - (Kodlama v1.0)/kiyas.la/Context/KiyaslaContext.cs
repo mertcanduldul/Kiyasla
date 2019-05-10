@@ -11,8 +11,6 @@ namespace kiyas.la.Context
     {
         public DbSet<Phone> SmartPhone { get; set; }
 
-        public DbSet<Eslestir> Eslestirmeler { get; set; }
-
         public DbSet<Comment> Yorum { get; set; }
     }
 }

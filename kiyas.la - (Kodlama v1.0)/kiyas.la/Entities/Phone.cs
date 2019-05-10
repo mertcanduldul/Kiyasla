@@ -15,6 +15,8 @@ namespace kiyas.la.Entities
 
         public string TelefonModeli { get; set; }
 
+        public string MarkaModel { get; set; }
+
         public string Ekrancözünürlügü { get; set; }
 
         public int RAM { get; set; }

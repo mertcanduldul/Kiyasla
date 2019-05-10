@@ -30,7 +30,7 @@
                     <%#Eval("İslemciHizi_Ghz")%>
                     Ghz İşlemci
                     <br />
-                    Ön Kamera
+                    Arka Kamera
                     <%#Eval("ArkaKamerapixel")%>MP
                     <%#Eval("Batarya_Mh")%>
                     MH Batarya<br />
