@@ -26,6 +26,9 @@ namespace kiyas.la.User.Products
                     //id değeri yok
                     //tüm ürünleri yükle
                     LoadProducts();
+                    randomdate();
+
+
                 }
                 using (KiyaslaContext db = new KiyaslaContext())
                 {
@@ -52,6 +55,10 @@ namespace kiyas.la.User.Products
                                         where i.Id == id
                                         select i).ToList();
                 ListView1.DataBind();
+                sliderListview.DataSource = (from i in db.SmartPhone
+                                             where i.Id  > 8
+                                             select i).ToList();
+                sliderListview.DataBind();
             }
         }
 
@@ -61,8 +68,23 @@ namespace kiyas.la.User.Products
             {
                 ListView1.DataSource = db.SmartPhone.ToList();
                 ListView1.DataBind();
+                sliderListview.DataSource = (from i in db.SmartPhone
+                                             where i.Id > 8
+                                             select i).ToList();
+                sliderListview.DataBind();
             }
         }
+        protected string randomdate()
+        {
+
+
+            Random r = new Random();
+            return r.Next(1, 31).ToString();
+
+            
+        }
+
+
 
         protected void BtnKarsilastir_Click(object sender, EventArgs e)
         {

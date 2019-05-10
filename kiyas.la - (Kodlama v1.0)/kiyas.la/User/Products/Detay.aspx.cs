@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using kiyas.la.Context;
 using kiyas.la.Entities;
+using System.Data.Entity;
 
 namespace kiyas.la.User.Products
 {
@@ -20,6 +21,9 @@ namespace kiyas.la.User.Products
                     int id = int.Parse(Request.QueryString["id"].ToString());
                     LoadProductsById(id);
                     LoadComments(id);
+                    randomphoto();
+
+
                 }
             }
         }
@@ -33,6 +37,13 @@ namespace kiyas.la.User.Products
                                         select i).ToList();
                 ListView1.DataBind();
             }
+
+        }
+        protected string randomphoto()
+        {
+            Random r = new Random();
+            // return r.Next(1, 3).ToString();
+            return "https://www.bootdey.com/img/Content/user_" + r.Next(1, 4) + ".jpg";
         }
 
         private void LoadProducts()
@@ -40,6 +51,7 @@ namespace kiyas.la.User.Products
             using (KiyaslaContext db = new KiyaslaContext())
             {
                 ListView1.DataSource = db.SmartPhone.ToList();
+
                 ListView1.DataBind();
             }
         }
@@ -52,6 +64,9 @@ namespace kiyas.la.User.Products
                                           select i).ToList();
                 CommentView.DataBind();
             }
+
+
+
         }
 
         protected void YrmEkle_Click(object sender, EventArgs e)
@@ -63,10 +78,14 @@ namespace kiyas.la.User.Products
                 c.Yorum = Yorum.Text;
                 c.Name = Isim.Text;
                 c.ProductId = id;
+                c.Time = DateTime.Now;
+                Random r = new Random();
+                c.randomphoto = "https://www.bootdey.com/img/Content/user_" + r.Next(1, 4).ToString()+".jpg";
                 db.Yorum.Add(c);
                 db.SaveChanges();
                 LoadComments(id);
             }
+
         }
 
     }

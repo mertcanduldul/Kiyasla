@@ -16,5 +16,9 @@ namespace kiyas.la.Entities
         public Phone Product { get; set; }
 
         public int ProductId { get; set; }
+
+        public DateTime Time { get; set; }
+
+        public string randomphoto { get; set; }
     }
 }

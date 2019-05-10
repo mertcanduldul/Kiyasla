@@ -19,7 +19,7 @@ namespace kiyas.la.Entities
 
         public string Ekrancözünürlügü { get; set; }
 
-        public int RAM { get; set; }
+        public double RAM { get; set; }
 
         public double ArkaKamerapixel { get; set; }
 
@@ -52,6 +52,8 @@ namespace kiyas.la.Entities
         public string İsletimSistemi { get; set; }
 
         public string SistemSürümü { get; set; }
+
+        public DateTime CikisTarihi { get; set; }
 
     }
 }

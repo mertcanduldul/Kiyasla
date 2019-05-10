@@ -1,4 +1,4 @@
-/* Minification failed. Returning unminified contents.
+﻿/* Minification failed. Returning unminified contents.
 (1937,31): run-time error CSS1036: Expected expression, found '#'
  */
 @charset "UTF-8";
@@ -654,7 +654,7 @@ a.deleteComment {
 
     .popularComparisons div {
         display: inline-block;
-        min-width: 295px;
+        min-width: 100px;
         padding: 8px;
         /*	margin-right:18px;*/
         text-align: center;
@@ -2410,7 +2410,7 @@ p.bjqs-caption
 }
 #newArrivals
 {
-    height: 350px;
+    height: 600px;
     width: 920px;
     margin: 0 auto;
     margin-bottom: 40px;

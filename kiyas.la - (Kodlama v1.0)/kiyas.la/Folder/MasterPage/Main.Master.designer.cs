@@ -31,6 +31,15 @@ namespace kiyas.la.Folder.MasterPage {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
         
         /// <summary>
+        /// sliderCont control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder sliderCont;
+        
+        /// <summary>
         /// MainContentHolder control.
         /// </summary>
         /// <remarks>
