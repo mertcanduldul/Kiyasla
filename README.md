@@ -1,4 +1,7 @@
 # kiyasla
+Yanlış commitleme mantığından dolayı çok üzgünüm <br/>
+sorry for the wrong version<br/>
+
 Telefonları kıyaslayıp size hangisinin uygun olduğunu istatistik olarak sonuçlarını gösteren bir web tabanlı proje
 
 1.KULLANILAN TEKNOLOJİLER <BR/>
